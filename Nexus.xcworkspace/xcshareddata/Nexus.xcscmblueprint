@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E4CAD325524DB27C2AF0FA8260756E389C0D6D5C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E4CAD325524DB27C2AF0FA8260756E389C0D6D5C" : 0,
+    "61DE9921C68D31ECEC5A82C3C327C3232EE3BA52" : 0,
+    "FCF6FBD94B72AD1397207DFAB40B914667A24DCE" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "8C0FB2F5-CFBB-436C-8238-DF22794368C8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E4CAD325524DB27C2AF0FA8260756E389C0D6D5C" : "nexus-ios-app\/",
+    "61DE9921C68D31ECEC5A82C3C327C3232EE3BA52" : "..\/..\/..\/..\/..\/Applications\/MAMP\/htdocs\/nexus-web",
+    "FCF6FBD94B72AD1397207DFAB40B914667A24DCE" : "..\/..\/..\/..\/..\/Applications\/MAMP\/htdocs"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Nexus",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Nexus.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/zilions\/nexus-web-app.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "61DE9921C68D31ECEC5A82C3C327C3232EE3BA52"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/zilions\/nexus-ios-app.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E4CAD325524DB27C2AF0FA8260756E389C0D6D5C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/nexus-social\/nexus-web.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FCF6FBD94B72AD1397207DFAB40B914667A24DCE"
+    }
+  ]
+}

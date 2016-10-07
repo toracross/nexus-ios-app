@@ -1,0 +1,6 @@
+framework module APContactEasyMapping {
+  umbrella header "APContactEasyMapping-umbrella.h"
+
+  export *
+  module * { export * }
+}

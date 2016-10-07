@@ -1,0 +1,1893 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		002189060CA05EAF76F321DA0ECA99FC /* SVWebViewControllerActivitySafari.h in Headers */ = {isa = PBXBuildFile; fileRef = 64E98B863168C4BA10033605BBA97EA9 /* SVWebViewControllerActivitySafari.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01B12D71C179CC6A565704116E858C1B /* MKLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A80E36661E01D978A39A7869F6E760 /* MKLabel.swift */; };
+		0244632E7101F3671D417752FEAA6D62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC595CD843E5ED89D30A859BBC3BFAAB /* Foundation.framework */; };
+		0245EFEF5F59047C56E7A9C1904CE4BB /* EKObjectMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C667521D9985899B5AD038861EAD39 /* EKObjectMapping.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		02A83B2F19D954DC7EE0475E2B3FA31A /* MKCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0612FD07316D509E8E446F6A81363597 /* MKCardView.swift */; };
+		030AAB1BDF10037089A21E9111149C35 /* MKTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB6E4D0784C10E4AE571AD998131574 /* MKTextField.swift */; };
+		03991FCFB90E28F7C470325C1F02FF04 /* APJob.h in Headers */ = {isa = PBXBuildFile; fileRef = DD15722705412620895F4F5AF8A6A443 /* APJob.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03B5D9853EEF182FE0D724A1A9C9D9C2 /* EKPropertyHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = FC81D870BF5942193B443A7B5CF606F9 /* EKPropertyHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0719FD66FD15DD340134C08189FF6EC2 /* EasyMapping.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34B6521BD9C77CA999CA3294BF9D697C /* EasyMapping.framework */; };
+		07EA2993A56FB0B4FD7292A599DD779C /* APAddressBookRefWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DFB1AB1A6D560330D1FE71B2C123F5D /* APAddressBookRefWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08DD028B967914941C7848A1DA086CE7 /* APImageExtractor.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EDD14219216D5305713A9F90190493D /* APImageExtractor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0920C6F61E68F3B5A27F8359F9CB45F7 /* SVModalWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 450D57CABE9D25BA27B73F197C260C9D /* SVModalWebViewController.m */; };
+		096B6D6FC9407AB570AE961668BC89D7 /* APAddressBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3C336E550D5E07A4E018A6D2BD732F /* APAddressBook.m */; };
+		09A46B97F201994796819BE741530467 /* SVModalWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F56D8571D4E40C9F244D2A8573C4C6C /* SVModalWebViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09C7B0CFC61976ECC946545877AEB8D5 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 4C056FF56D0DD74FBE3572BA2E6CF5C2 /* en.lproj */; };
+		15B865C2E8011ADB6BE517139B496D8D /* APEmail.h in Headers */ = {isa = PBXBuildFile; fileRef = 124E91F6B87E0081F4AC186C574E9380 /* APEmail.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1ADCA69F072574677AE631A13CDC9880 /* APEmail.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FDFFE3575DC6D9B2A40EDBA42FC9AB2 /* APEmail.m */; };
+		1B6CDA69975E7A4E378E584EC4AA73F3 /* SVWebViewControllerActivityChrome.h in Headers */ = {isa = PBXBuildFile; fileRef = 2272066520945E6E57D5F3AA5766A2B5 /* SVWebViewControllerActivityChrome.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EB1F1AB11E7A74AB11126EC0747DAAB /* APAddressBookExternalChangeDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 04E543A08214A3CAC39C0A6E800ABD04 /* APAddressBookExternalChangeDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20213018F5CE8C3AC1C7C140DE771250 /* SVWebViewControllerActivitySafari@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CC96F0BF1B4929173CC91B13A2A0147 /* SVWebViewControllerActivitySafari@2x.png */; };
+		22B8360042177EFD239901509A338683 /* pt.lproj in Resources */ = {isa = PBXBuildFile; fileRef = E3B185755C79D4D0122B24696F0E5AD1 /* pt.lproj */; };
+		237A00A7EA058A99C060ACB8A394775D /* EKManagedObjectMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = A4FA1CA8237D0B0C3F3D87F4731D1512 /* EKManagedObjectMapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23AE156527CC32482795AE3424471F25 /* EasyMapping-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7803C8094D190469D4DDD638A3FF3617 /* EasyMapping-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28DADFE15D5C30341E3E1ED43F76B167 /* APSocialProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = AABAD3E901DBBCA63A48AB1083136E94 /* APSocialProfile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2AA2EB4A871AD04333B5459D9089CF0D /* SVWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E6D873B1F574370D0B1EC8715835AA5 /* SVWebViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2AD28D99B90DAF3C7AB5B06AB962B8DD /* APThread.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C7CBDF004039CD75C2917AD445E3000 /* APThread.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B5E7C3A515373C859B7E9432C189AF6 /* EKCoreDataImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = B8703D07B94D68610E1D5EDC415FF804 /* EKCoreDataImporter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2C0F35161B41DAF22B8972528A06CAD0 /* NSArray+FlattenArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 93508EBC73F76EA5F91EBC5203EA05A3 /* NSArray+FlattenArray.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2D34EF1405303BD5F2A1EC453969FEBE /* ja.lproj in Resources */ = {isa = PBXBuildFile; fileRef = E06DEB3D9BF352DCF9D93913D6FB3EA2 /* ja.lproj */; };
+		2D9FC072BBB95F157EE7C1337BC6CC8A /* APSocialServiceHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F09C8A3A5F60DDE8FC388B36A02A6EE /* APSocialServiceHelper.m */; };
+		2E21B296D139D94BFE742536D74C52F6 /* APName.m in Sources */ = {isa = PBXBuildFile; fileRef = B999D6FE3FB302F346BB00B28B4506F0 /* APName.m */; };
+		3120786124C3998532BCAD15D19BDEC8 /* APContact+EasyMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = D05CA469C35657E42E2CD848F36E791C /* APContact+EasyMapping.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		313099B6B5EE359B40AC5219A15C1CCE /* APPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 94AB3522269C0900F16374A0FA260F95 /* APPhone.m */; };
+		37E28D38C0C98FDD5EE94EC2674205DF /* APRecordDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8F604716B014B054302AAD99F42939 /* APRecordDate.m */; };
+		3915C159E25DD239A988484F52E4C1C4 /* APAddressBookAccessRoutine.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1988134EA38D163E38DFA97FE9C409 /* APAddressBookAccessRoutine.m */; };
+		392272AB3A68B7073B56F29AE45D0374 /* APContactDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFC92BED9919DCC90CB8D1F951BCFDC /* APContactDate.m */; };
+		3929AC913D376C01B40FB69EA8B3F248 /* MKEmbedMainControllerSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E55CCA2BCEC0ED90F7F12939AA89B06 /* MKEmbedMainControllerSegue.swift */; };
+		393AB0525E079B196EF8C5C3C2B18FAE /* APAddressBookContactsRoutine.m in Sources */ = {isa = PBXBuildFile; fileRef = 6028A21556891B967B3E3B321C73FB6C /* APAddressBookContactsRoutine.m */; };
+		396F02B1114D26581FB193A7341C4D7A /* APRelatedPerson.h in Headers */ = {isa = PBXBuildFile; fileRef = BF3862086546A837F9F4A511340F7B07 /* APRelatedPerson.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39B292190BFC8DE9259145F97615AA97 /* APContactListBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 2869819A5B1F38ECB438958C546B2D78 /* APContactListBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A79EAF91D57F1A96D2F1CCB1D95A8B0 /* EKPropertyMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = 533B2FE0D0E1BB52D224BFD9089F2391 /* EKPropertyMapping.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BD572558A90C870FD17C5EAEBA934A1 /* APRecordDate.h in Headers */ = {isa = PBXBuildFile; fileRef = 294E5412952500B789612B701E566141 /* APRecordDate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3CD261C148462E67B2E2B494911C75E0 /* APAddressBookRefWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BCF490D3D5DF6F3769DB10A3B6611A /* APAddressBookRefWrapper.m */; };
+		3D9293E9A112CD62CD00E95BD02BDF5B /* APContactBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC04DAD7863CC6B157CA86BCAC51035 /* APContactBuilder.m */; };
+		4228B10B4F32733E8E0F1DD66B7502AD /* APImageExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B16F3B5443177E475E2F1996435D8F /* APImageExtractor.m */; };
+		4642FE4CDF2F7CEA7EA528D30A454964 /* APContactEasyMapping-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 99496572BC2B0617F323CEF7AF3A5008 /* APContactEasyMapping-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46459B02049525E5750257391AF1EEB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC595CD843E5ED89D30A859BBC3BFAAB /* Foundation.framework */; };
+		465F2951C21EAF3B3227661A11F11310 /* APJob.m in Sources */ = {isa = PBXBuildFile; fileRef = F76EF0E10C2B209B95462B3721738FF5 /* APJob.m */; };
+		4858E54CF65269C087258F13094ECEB0 /* NSDateFormatter+EasyMappingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD92C6CEA1EFE3DC5DBB9997ADD5785 /* NSDateFormatter+EasyMappingAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		49398D3880196D3971BC4B9033B6F4E1 /* EKMappingProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = C3187E29D5BFF7AF680A895CBE429B25 /* EKMappingProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D47B36679220E649AACBC7E5EEEAD1F /* MKLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77335A2DA73C4B4836AFD0A785DF762 /* MKLayer.swift */; };
+		4E9240C916C4C37BDA809AF789696262 /* EKRelationshipMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = B150929F7C3EA7DA89A390C9310B67AA /* EKRelationshipMapping.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4F888824DB5CB8B87FACC416C017D044 /* Pods-Nexus-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D80CACBC4A27866490BA24B26B3B6D53 /* Pods-Nexus-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50AED70781AC00F55660AFB3B9992696 /* SVWebViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D1C9309194A62BB490176916EE590451 /* SVWebViewController.bundle */; };
+		54F60E414FE3324EEC543A544F27396D /* MKTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA641686FFC7402C8CFE3853F78EEDA7 /* MKTableViewCell.swift */; };
+		5CE7100E99FB1255905051162EE1EBF4 /* MKCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DE1450E8CD08CC0112057471D56D2A /* MKCollectionViewCell.swift */; };
+		638D79053A67BD85A55F23199B53F7FF /* EKManagedObjectMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 7401A49C60829A47392223317B4287B5 /* EKManagedObjectMapping.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		64FB2139447B2122C088CA6A380FA025 /* APAddressBook-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6E821A865766A5966A4EBCD6CB0696 /* APAddressBook-dummy.m */; };
+		672A39BEB4B5105839BC3A1167713939 /* de.lproj in Resources */ = {isa = PBXBuildFile; fileRef = F0C3C9740AF83A95A1DBAD4E13A34182 /* de.lproj */; };
+		688C6A054128270D5B5EDCBEC047DBDB /* es.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 4381662BADCA0C55EB797D8EBC8764BC /* es.lproj */; };
+		6B42ECA2B25756D9D7AAEB8B9605B806 /* APAddressBookBaseRoutine.h in Headers */ = {isa = PBXBuildFile; fileRef = 73365CC41057FD6A6B02D2EE7460023A /* APAddressBookBaseRoutine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CF8C8BA54CA2C15EBAE23C7186FD296 /* SVWebViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C365C759BB738DE22496ED24F173F038 /* SVWebViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D7D79CE80101C94B120F5C923358A35 /* EKObjectModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 819939128B7C14BA7F06601A1C2B78D6 /* EKObjectModel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		70DF6556140704F9ADB907C7E4DDFE71 /* APAddress.h in Headers */ = {isa = PBXBuildFile; fileRef = 96DBE6A402C69BED97AFA17744CF2B89 /* APAddress.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7400D3BD2CC35610CC2234BF28EDDC15 /* APAddressBookBaseRoutine.m in Sources */ = {isa = PBXBuildFile; fileRef = 7290E30ECA89996CBD8D85474BFD2911 /* APAddressBookBaseRoutine.m */; };
+		751F7072B5557CDC1B28C472488823FB /* SVWebViewControllerNext@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66A71EC11792AB5E453B875E2207C074 /* SVWebViewControllerNext@2x.png */; };
+		760A165B3A5ADD00D4E0185B73D61F13 /* APSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 065CDB5D96609868E2E693775F7F91AC /* APSource.m */; };
+		78076B27EB1496B17C1F7AC7320796C1 /* ReachabilitySwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D4659A556BE1C79D870399892D70992F /* ReachabilitySwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78B5BD7225525A91EDAF2509554118A6 /* NSDateFormatter+EasyMappingAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AE493508B55869AC04BFA72A3B29132 /* NSDateFormatter+EasyMappingAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D7FB1098C675CADDF59A5732DD0C34D /* MKImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E49C205F9B5A8992A20E3489A229543 /* MKImageView.swift */; };
+		7E03A96835C562944B533CF35BE071BE /* APAddressBookAccessRoutine.h in Headers */ = {isa = PBXBuildFile; fileRef = C77EEA925E46777525856FF42A0FD0CE /* APAddressBookAccessRoutine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EC4E0B104A3717E0F5C3395776B0847 /* MKNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832D1F19430AD58477533F6192B0D71E /* MKNavigationBar.swift */; };
+		808D76689694ACD77E12EE23D5EA8445 /* EKManagedObjectMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = 994F950083040F5AF3FC16F2FF91A3A0 /* EKManagedObjectMapping.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81DD0ED9757840AA5BF86762C2D130EC /* APAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB342AB4EBC64A66B522558599B5AB0 /* APAddress.m */; };
+		8214AB963135D714481DFED632CF2B09 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B05A7FE3261C2184E48DCFC58948942 /* AddressBook.framework */; };
+		83F0382A8FB5479F9C9D397CDEBDA76D /* EKManagedObjectModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B33AB5FA05269C40E1ECB5A1A7F7378 /* EKManagedObjectModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8435459D97506FC96C6A7D17A8D40170 /* EKObjectModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F3FA36A6EBFB3BE7E86326FAF7803FE /* EKObjectModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		861DD4B3D3DC24B36C9798944B83E22E /* EKManagedObjectMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = BADBF658BC11DE82B3CE01E17771332E /* EKManagedObjectMapper.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8709E918DE3255DB1665855994223F5B /* EasyMapping-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2620F14A8CF6AD8D6C4264950C687A6B /* EasyMapping-dummy.m */; };
+		87A9F3B4304CF2D23BFE32AD30588B96 /* EKRelationshipMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = F31A8D5E65FD6E781424B9B799D566FD /* EKRelationshipMapping.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88D7847E493B08AAD89F95E04F14DA7D /* zh-Hant.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 50FDAC175F285FFA8B869FDD6173CF13 /* zh-Hant.lproj */; };
+		8A3E3C220E42806A661AD7D6D8858FEF /* MKEmbedDrawerControllerSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEEB46E35EEDD97673755995F8B0A0F /* MKEmbedDrawerControllerSegue.swift */; };
+		8BFF5BE40067EC2FE05CC8B1E3247310 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC595CD843E5ED89D30A859BBC3BFAAB /* Foundation.framework */; };
+		8C18B52B33B95941178B859B1DAE0B4D /* Pods-Nexus-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B3A16A8EE374BC1743DF1876CCECBB /* Pods-Nexus-dummy.m */; };
+		8DC298462F3FAB1A48672900893A97FC /* APTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 289C369410D2ECCAB8D2BC2695D22C28 /* APTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8EA0E4DC2E1646D3835F5B3F377630E3 /* fr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 0733C5EEE7868AC87F054A2D5A09D6EE /* fr.lproj */; };
+		8FD886448BCEC38D643E29FE3256E4F3 /* APName.h in Headers */ = {isa = PBXBuildFile; fileRef = D170A4E0A259CB868876E5683E5053B4 /* APName.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		911A81DD8925D69CC89728890007D6C4 /* MKActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F21C76532D65538213929E2AB2AABA /* MKActivityIndicator.swift */; };
+		94AAE1495826B53C9AC0319AB0330A40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC595CD843E5ED89D30A859BBC3BFAAB /* Foundation.framework */; };
+		95832479B73A8D57140BF2A0BD854641 /* SVWebViewControllerActivityChrome-iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 153877114A6264FF5DA18FE64521BAD5 /* SVWebViewControllerActivityChrome-iPad.png */; };
+		9796AE0844C7548884DCF218E91D9A7E /* MKButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C412AED4D9F4427F29D3070379861DB /* MKButton.swift */; };
+		981BE6D0CA46A95C2B137B60240EED22 /* MKSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65ED0B14A1B80A44D32742E71FDBBEAE /* MKSwitch.swift */; };
+		9A870347E771B20EFEF0F75CAFE06383 /* MaterialKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9ECB495FAFBFABBD0B445B9845DFEFC /* MaterialKit-dummy.m */; };
+		9D22DA0AE3A97D6C9B30BAE9DC540581 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC595CD843E5ED89D30A859BBC3BFAAB /* Foundation.framework */; };
+		9D2AEA25FC8BBCB50D170BE69986B923 /* SVWebViewControllerActivityChrome@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDF7862567B6380DF70641AB081D812C /* SVWebViewControllerActivityChrome@2x.png */; };
+		9D695DF0DC77CFAF26BEF5D2ADB46593 /* MKSnackbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3D51DA3AF1C2B80AA66BA317BBA16D /* MKSnackbar.swift */; };
+		9FB79279255BA60D182456813DD9A3FF /* APAddressBookContactsRoutine.h in Headers */ = {isa = PBXBuildFile; fileRef = C85CF771A1043A64087F8EB0C9EF6225 /* APAddressBookContactsRoutine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1F1F6895638F232ABA33A4EDCEB31AD /* APRelatedPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = C82D4C42729192AB506EBD547A02ED5D /* APRelatedPerson.m */; };
+		A35C08C3351925A29E1CFA0CF7868E92 /* SVWebViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B79AD0013A74123F673AB0F198E24ABF /* SVWebViewController-dummy.m */; };
+		A4D2D9575BBF711E12F15D0FA608AB9C /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45AD9419629AD97F1F705A4DC1BDF14 /* Reachability.swift */; };
+		A5E2A260A98C38CA7C10B9750A8E2F67 /* APContact+EasyMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D56769E13801C961F7C27A6D10C8EA /* APContact+EasyMapping.m */; };
+		A72A54DE18A6A77DA3C6BE06285180C3 /* SVWebViewControllerNext.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B9B45CBA50602615C2F8D5319FB1D04 /* SVWebViewControllerNext.png */; };
+		A76DB73EBF5B1744A80BE71EC0855847 /* APSocialProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 75639F48AE11E3551EAF5FDA0EE8048D /* APSocialProfile.m */; };
+		AD26BB41EB0D8D0A88557D0B0460C8B0 /* SVWebViewControllerActivityChrome.m in Sources */ = {isa = PBXBuildFile; fileRef = 97D2DE77DA5C74FABC8403B38594B5AB /* SVWebViewControllerActivityChrome.m */; };
+		ADAC7E2113A041B21CC505830EA4A747 /* SVWebViewControllerActivitySafari-iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = EC4C0B024A45FECD447E23CD332669AD /* SVWebViewControllerActivitySafari-iPad.png */; };
+		AE240FA0E7B880E98A5B0650503714DC /* EKPropertyHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C21D5F1FE79F571E49D27624D82833E /* EKPropertyHelper.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		AF90B7A9515137B1964539386AE37708 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01E244320C6624C116225DF6762DAE1A /* CoreData.framework */; };
+		B1D3F85B4B46622093B59D38EA51A083 /* SVWebViewControllerActivitySafari.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B73384B9830513B25A11C65F1D1975 /* SVWebViewControllerActivitySafari.m */; };
+		B23D16C8C18249CB5E2A565C790337F3 /* APSocialServiceHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 328DFDB0F20CAD8AF82B65DE5AAA5B85 /* APSocialServiceHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B544FFC12D4025DA8E6ACDC1EA12A322 /* APDeprecated.h in Headers */ = {isa = PBXBuildFile; fileRef = 2487F40EFD9B2F3C991BE85B75EFCBDB /* APDeprecated.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF211054FB7EED91112C850B345340AF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 015CFE03272F8DE7229DB611CC3C43A9 /* SystemConfiguration.framework */; };
+		BF33094365AF891F34D6376F1E51590A /* EKPropertyMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D1FE50041E2D2A642905632B58920A /* EKPropertyMapping.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C0CAB4710FBAA1C2C0DDD0ED2919F4B2 /* APAddressBook-Bridging.h in Headers */ = {isa = PBXBuildFile; fileRef = F2F4230232FEF51814E2BE01EF72866C /* APAddressBook-Bridging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C155313B343CCD05796410FD196C215E /* APContact.h in Headers */ = {isa = PBXBuildFile; fileRef = E3D773DAB53F9FFFC59F64FFF0DBEE13 /* APContact.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1B4C2596338287E5F73D6E1B7D35E63 /* es-ES.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 9143AE724C2BFD91010BC0BBADE76A9D /* es-ES.lproj */; };
+		C797EECADAD55A181A8C1361DCB57C51 /* APAddressBookExternalChangeRoutine.h in Headers */ = {isa = PBXBuildFile; fileRef = E25B0B3DD7C716D7FD9E9E9EF6BEE518 /* APAddressBookExternalChangeRoutine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7D619AD366830522DEDBB2C6DF89DD1 /* EKSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = B2A247659DE33D6EE9BF282F36B8640E /* EKSerializer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C85FDBC7B5FCD8C753D218F71747C05C /* APAddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51A13D633B36E3F160140AF3D01AA906 /* APAddressBook.framework */; };
+		C882A77CA91A2913BF17ED4B750A9B5E /* APAddressBook.h in Headers */ = {isa = PBXBuildFile; fileRef = CF77354853942C0E34DCDCA96C24F908 /* APAddressBook.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C965774052938CB5DD51651D7C25D5FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC595CD843E5ED89D30A859BBC3BFAAB /* Foundation.framework */; };
+		C98F54B6B06DE5E7BDE52D90D34AABE8 /* EKManagedObjectModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D9CA45FAFDC577CE69EC7003B21AF8 /* EKManagedObjectModel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CACD83476BF2C9D79CE925F9CDD61D82 /* da.lproj in Resources */ = {isa = PBXBuildFile; fileRef = D74B503E7F163B22B201C1EE5745DEA4 /* da.lproj */; };
+		CACDA47832F02E52D5E0EA0D10DE79B8 /* SVWebViewControllerActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = A8FC5AADA0A5EA11C52AD66D0EE4C06C /* SVWebViewControllerActivity.m */; };
+		CC27D32E4ECB23AB4F4318932F2B1100 /* EKSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A2F58473EC1B75682F69E126CEEB715 /* EKSerializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE1B3B0BA8F55FCD9998CE00B53C37AC /* APSource.h in Headers */ = {isa = PBXBuildFile; fileRef = F2DFF5AE8CCB4C416086EDEDDF7385D9 /* APSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF4DFB5BABB8632F0B08FE9A36923D68 /* APContactDataExtractor.h in Headers */ = {isa = PBXBuildFile; fileRef = ACB17A1F358275753BD22225F10508CF /* APContactDataExtractor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D010D7B6179401F0A14661E3FB2292AB /* APContact.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A2D0E8AEB78020A73CF7D6BB097BB5 /* APContact.m */; };
+		D1E1E1006A8F9F253474EF11CB2E8C3C /* SVWebViewControllerActivityChrome-iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AECEB96C08898635C3CCFEFBA973F32 /* SVWebViewControllerActivityChrome-iPad@2x.png */; };
+		D296854119AB4CC1D538B9EBF542FE02 /* EKMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 013ADDBC3003F3A3FFF03EA58BC5B343 /* EKMapper.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D3633CF7AA220061ACC7E01752AB3078 /* SVWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4BBC95DF7C34C751B7E4BF19347E745 /* SVWebViewController.m */; };
+		D3BF782C490DC3581DD2E636F125EC97 /* MKRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA67EE514367EF0136E37223552DCF8 /* MKRefreshControl.swift */; };
+		D5BC0F5B6576E8FDD2DBF213834EAC44 /* SVWebViewControllerBack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BEEB14861A8BECAFF1BCB3988218BBD /* SVWebViewControllerBack@2x.png */; };
+		D6E0AE8D7805CD9EC3C2D23C13F7C3A0 /* EKMappingBlocks.h in Headers */ = {isa = PBXBuildFile; fileRef = 649BD9DF460CAEB391EE586F69D2C9BE /* EKMappingBlocks.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7D7C8B2E71652BD9006EA2AAA80EAEE /* NSArray+FlattenArray.h in Headers */ = {isa = PBXBuildFile; fileRef = F9B287AD0FDAC3FF8F4FDD62F70EACF2 /* NSArray+FlattenArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D88CD79AB0512FDFF1F58D1917ED7B40 /* APAddressBookExternalChangeRoutine.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE374750FA388E5A0D98F7681C34CD2 /* APAddressBookExternalChangeRoutine.m */; };
+		D8FF81EAD94AB3A9695B84FD269DF2FD /* EKMappingBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CD775987D61043A16396FDA4DE2A628 /* EKMappingBlocks.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D9D46AB254E4E9B5F340DD3DCB78A1F0 /* MKColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE17422893931C508017BEA7C51B33D /* MKColor.swift */; };
+		DE3BF77BE039F15E8233058A34F24C8B /* MaterialKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DE49AB82F139DB178B655D135640473 /* MaterialKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2D506E7E9A7EE0FF900E529FDE2E5DD /* APContactBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 53A2D72CAD109A760C781644DD5E1F20 /* APContactBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3B755F999AE0897F1EBEADA06DA637C /* MKSideDrawerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07C2951A5959CC4282A25F25D894B9C /* MKSideDrawerViewController.swift */; };
+		E797F73AF0A3AA46AA0864600D13110C /* APThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9CBE17957CB866A93A201A83772B68 /* APThread.m */; };
+		E82608F8BBFEC2185ADCF5317C80AA43 /* SVWebViewControllerActivitySafari-iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C32E14C2694EB0F499CF68641DA173 /* SVWebViewControllerActivitySafari-iPad@2x.png */; };
+		EA69A1DD56336AEB70D0765622A224A8 /* APAddressBook-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 865624EF4E7D285584ABE54E05E2944C /* APAddressBook-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA920036525C9B5836ED277D86BD817D /* EasyMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = E453AF3D7C439CE32AB9B8B485F2714C /* EasyMapping.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF4321F439B0E810CB5577BA4F034E0C /* zh-Hans.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 287AA7EE4307C66DE50A8350109BAB73 /* zh-Hans.lproj */; };
+		EFAD06952486DBEA0F84035654727DDF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC595CD843E5ED89D30A859BBC3BFAAB /* Foundation.framework */; };
+		F07F838DC2DCE6C626AAB43E11BBF3C0 /* APContactDate.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F949FE7922106754DA78F7C7B45E8E5 /* APContactDate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F107E17BF8D5EA4E0537922CBEC25855 /* EKMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D7F49571FB7B8A09468A345A6A2A69F /* EKMapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F157024675C82C278B5E8D7377A1317A /* APContactDataExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F4A785452D05415914609F70FEFB62 /* APContactDataExtractor.m */; };
+		F1F512B1FCD8653069C010A795826475 /* APContactEasyMapping-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15223AE2FB0AF3BC7B3F6B7BA7775D8E /* APContactEasyMapping-dummy.m */; };
+		F1FE20CC810029C9269AD7C98CF955EF /* APContactListBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E834EB191BB5C16A2FEF1F10C402DB /* APContactListBuilder.m */; };
+		F6521E106C15879019D1C9B5C852DF54 /* ReachabilitySwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 067CD151E7AA6F5D18FAF5F43B85855F /* ReachabilitySwift-dummy.m */; };
+		F7BD08C956E8A3E30BE0FB14E177966C /* EKObjectMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = DC5E63F864A41FD0DB7A50765ABB4891 /* EKObjectMapping.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F967CFB94BD014FD451E374712C003FF /* EKCoreDataImporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 215A64EA2B772F0635D7DA411DCD02A3 /* EKCoreDataImporter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA11B47BC07CE8C5CEAD71FECA5DEE8E /* SVWebViewControllerActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = F64A0B36F15D06DD6A20AA6CFFA5F980 /* SVWebViewControllerActivity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDBD024616BFFCF309511DB7F2286DDD /* SVWebViewControllerBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 69725970C5301A35E5B4F7B1D935CB7C /* SVWebViewControllerBack.png */; };
+		FFCA2A3CD1DC3DF70FA19BC7A4995FA8 /* APPhone.h in Headers */ = {isa = PBXBuildFile; fileRef = 9697AF98D266FC3232D3C59F574E3ABE /* APPhone.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		147D7A023F2DB08DEDAB6069C3F32A81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB971BE7164B7A25C6500CF4672E1298;
+			remoteInfo = EasyMapping;
+		};
+		5249F7A5A1E588D9A34FB4139A248B81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD18AB9BECB1119F6A4E69CD3DF1764F;
+			remoteInfo = SVWebViewController;
+		};
+		7281911B1A9DEFBC8FD0BA0A9541A816 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E96DB4BFAAD4957B80AC7CA641D754B5;
+			remoteInfo = APAddressBook;
+		};
+		75FAAC82885BDB0A7BFF22C9DA9F4D3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E96DB4BFAAD4957B80AC7CA641D754B5;
+			remoteInfo = APAddressBook;
+		};
+		886C00C3788E46731A16F0F5C459659C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73850773DC05DB0F801C716B2A9E95F5;
+			remoteInfo = MaterialKit;
+		};
+		AE05B46753FFA1AE9EF434563F9862E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB971BE7164B7A25C6500CF4672E1298;
+			remoteInfo = EasyMapping;
+		};
+		F488EBC591A24276D54DAB6966CC297A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8812B4EDEEE5BAD95FE94CC2F9BA5F9;
+			remoteInfo = ReachabilitySwift;
+		};
+		F68E442BBC92FAB5815E88FF7F0CCEC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60CC4A740524F4E1B45D68DC4A90DA48;
+			remoteInfo = APContactEasyMapping;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0040FC2912D555BDEC92B2F5CDBBB6EA /* EasyMapping.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EasyMapping.xcconfig; sourceTree = "<group>"; };
+		00A2D0E8AEB78020A73CF7D6BB097BB5 /* APContact.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APContact.m; path = Pod/Core/Public/Models/APContact.m; sourceTree = "<group>"; };
+		013ADDBC3003F3A3FFF03EA58BC5B343 /* EKMapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EKMapper.m; path = EasyMapping/EKMapper.m; sourceTree = "<group>"; };
+		015CFE03272F8DE7229DB611CC3C43A9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		01E244320C6624C116225DF6762DAE1A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
+		02F4A785452D05415914609F70FEFB62 /* APContactDataExtractor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APContactDataExtractor.m; path = Pod/Core/Private/Extractors/APContactDataExtractor.m; sourceTree = "<group>"; };
+		04E543A08214A3CAC39C0A6E800ABD04 /* APAddressBookExternalChangeDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APAddressBookExternalChangeDelegate.h; path = Pod/Core/Private/Routine/APAddressBookExternalChangeDelegate.h; sourceTree = "<group>"; };
+		0612FD07316D509E8E446F6A81363597 /* MKCardView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKCardView.swift; path = Source/MKCardView.swift; sourceTree = "<group>"; };
+		065CDB5D96609868E2E693775F7F91AC /* APSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APSource.m; path = Pod/Core/Public/Models/APSource.m; sourceTree = "<group>"; };
+		067CD151E7AA6F5D18FAF5F43B85855F /* ReachabilitySwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReachabilitySwift-dummy.m"; sourceTree = "<group>"; };
+		0733C5EEE7868AC87F054A2D5A09D6EE /* fr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = fr.lproj; path = SVWebViewController/fr.lproj; sourceTree = "<group>"; };
+		07E9B86285C023101EDC55A470BF20F3 /* Pods-Nexus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Nexus.release.xcconfig"; sourceTree = "<group>"; };
+		0954CF9736DA05FEEE0224CF78621853 /* MaterialKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MaterialKit-prefix.pch"; sourceTree = "<group>"; };
+		0B9B45CBA50602615C2F8D5319FB1D04 /* SVWebViewControllerNext.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = SVWebViewControllerNext.png; path = SVWebViewController/SVWebViewController.bundle/SVWebViewControllerNext.png; sourceTree = "<group>"; };
+		0C4459F2A274BCB75EC8A5522B28BC9C /* APAddressBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = APAddressBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C7CBDF004039CD75C2917AD445E3000 /* APThread.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APThread.h; path = Pod/Core/Private/Thread/APThread.h; sourceTree = "<group>"; };
+		0CD1F26E492C91CCF3AD46F7C6D4F294 /* APContactEasyMapping-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "APContactEasyMapping-prefix.pch"; sourceTree = "<group>"; };
+		0EEEB46E35EEDD97673755995F8B0A0F /* MKEmbedDrawerControllerSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKEmbedDrawerControllerSegue.swift; path = Source/MKEmbedDrawerControllerSegue.swift; sourceTree = "<group>"; };
+		0FDFFE3575DC6D9B2A40EDBA42FC9AB2 /* APEmail.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APEmail.m; path = Pod/Core/Public/Models/APEmail.m; sourceTree = "<group>"; };
+		124E91F6B87E0081F4AC186C574E9380 /* APEmail.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APEmail.h; path = Pod/Core/Public/Models/APEmail.h; sourceTree = "<group>"; };
+		15223AE2FB0AF3BC7B3F6B7BA7775D8E /* APContactEasyMapping-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "APContactEasyMapping-dummy.m"; sourceTree = "<group>"; };
+		153877114A6264FF5DA18FE64521BAD5 /* SVWebViewControllerActivityChrome-iPad.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "SVWebViewControllerActivityChrome-iPad.png"; path = "SVWebViewController/UIActivities/Chrome/SVWebViewControllerActivityChrome-iPad.png"; sourceTree = "<group>"; };
+		187FD94847CD748D5A53FB35DB796AE5 /* ReachabilitySwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-prefix.pch"; sourceTree = "<group>"; };
+		1A3D51DA3AF1C2B80AA66BA317BBA16D /* MKSnackbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKSnackbar.swift; path = Source/MKSnackbar.swift; sourceTree = "<group>"; };
+		1AA67EE514367EF0136E37223552DCF8 /* MKRefreshControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKRefreshControl.swift; path = Source/MKRefreshControl.swift; sourceTree = "<group>"; };
+		1B05A7FE3261C2184E48DCFC58948942 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/AddressBook.framework; sourceTree = DEVELOPER_DIR; };
+		1B1617AD896186485A1F6154D46CC5B8 /* SVWebViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVWebViewController-prefix.pch"; sourceTree = "<group>"; };
+		1E3C336E550D5E07A4E018A6D2BD732F /* APAddressBook.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APAddressBook.m; path = Pod/Core/Public/APAddressBook.m; sourceTree = "<group>"; };
+		1F3FA36A6EBFB3BE7E86326FAF7803FE /* EKObjectModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EKObjectModel.h; path = EasyMapping/EKObjectModel.h; sourceTree = "<group>"; };
+		1F9CBE17957CB866A93A201A83772B68 /* APThread.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APThread.m; path = Pod/Core/Private/Thread/APThread.m; sourceTree = "<group>"; };
+		215A64EA2B772F0635D7DA411DCD02A3 /* EKCoreDataImporter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EKCoreDataImporter.h; path = EasyMapping/EKCoreDataImporter.h; sourceTree = "<group>"; };
+		2272066520945E6E57D5F3AA5766A2B5 /* SVWebViewControllerActivityChrome.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVWebViewControllerActivityChrome.h; path = SVWebViewController/UIActivities/Chrome/SVWebViewControllerActivityChrome.h; sourceTree = "<group>"; };
+		2487F40EFD9B2F3C991BE85B75EFCBDB /* APDeprecated.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APDeprecated.h; path = Pod/Core/Private/Deprecated/APDeprecated.h; sourceTree = "<group>"; };
+		2620F14A8CF6AD8D6C4264950C687A6B /* EasyMapping-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EasyMapping-dummy.m"; sourceTree = "<group>"; };
+		2869819A5B1F38ECB438958C546B2D78 /* APContactListBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APContactListBuilder.h; path = Pod/Core/Private/Builders/APContactListBuilder.h; sourceTree = "<group>"; };
+		287AA7EE4307C66DE50A8350109BAB73 /* zh-Hans.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = "zh-Hans.lproj"; path = "SVWebViewController/zh-Hans.lproj"; sourceTree = "<group>"; };
+		289C369410D2ECCAB8D2BC2695D22C28 /* APTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APTypes.h; path = Pod/Core/Public/Models/APTypes.h; sourceTree = "<group>"; };
+		294E5412952500B789612B701E566141 /* APRecordDate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APRecordDate.h; path = Pod/Core/Public/Models/APRecordDate.h; sourceTree = "<group>"; };
+		2BEEB14861A8BECAFF1BCB3988218BBD /* SVWebViewControllerBack@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "SVWebViewControllerBack@2x.png"; path = "SVWebViewController/SVWebViewController.bundle/SVWebViewControllerBack@2x.png"; sourceTree = "<group>"; };
+		2CEC3C443B998F5BAFB454367EFCF5F2 /* APContactEasyMapping.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = APContactEasyMapping.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		328DFDB0F20CAD8AF82B65DE5AAA5B85 /* APSocialServiceHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APSocialServiceHelper.h; path = Pod/Core/Private/Helpers/APSocialServiceHelper.h; sourceTree = "<group>"; };
+		3421DF079D24491879D9562D5FD565C5 /* APAddressBook-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "APAddressBook-prefix.pch"; sourceTree = "<group>"; };
+		3465B2B43C2CF3F2570D0B2E682689FA /* EasyMapping.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EasyMapping.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34B6521BD9C77CA999CA3294BF9D697C /* EasyMapping.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EasyMapping.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35B16F3B5443177E475E2F1996435D8F /* APImageExtractor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APImageExtractor.m; path = Pod/Core/Private/Extractors/APImageExtractor.m; sourceTree = "<group>"; };
+		39A80E36661E01D978A39A7869F6E760 /* MKLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKLabel.swift; path = Source/MKLabel.swift; sourceTree = "<group>"; };
+		3AE493508B55869AC04BFA72A3B29132 /* NSDateFormatter+EasyMappingAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDateFormatter+EasyMappingAdditions.h"; path = "EasyMapping/NSDateFormatter+EasyMappingAdditions.h"; sourceTree = "<group>"; };
+		3B33AB5FA05269C40E1ECB5A1A7F7378 /* EKManagedObjectModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EKManagedObjectModel.h; path = EasyMapping/EKManagedObjectModel.h; sourceTree = "<group>"; };
+		3C21D5F1FE79F571E49D27624D82833E /* EKPropertyHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EKPropertyHelper.m; path = EasyMapping/EKPropertyHelper.m; sourceTree = "<group>"; };
+		3C412AED4D9F4427F29D3070379861DB /* MKButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKButton.swift; path = Source/MKButton.swift; sourceTree = "<group>"; };
+		3CD775987D61043A16396FDA4DE2A628 /* EKMappingBlocks.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EKMappingBlocks.m; path = EasyMapping/EKMappingBlocks.m; sourceTree = "<group>"; };
+		3DE17422893931C508017BEA7C51B33D /* MKColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKColor.swift; path = Source/MKColor.swift; sourceTree = "<group>"; };
+		3EAF25EDE9E13D75CD0723A821100067 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41BCF490D3D5DF6F3769DB10A3B6611A /* APAddressBookRefWrapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APAddressBookRefWrapper.m; path = Pod/Core/Private/Wrapper/APAddressBookRefWrapper.m; sourceTree = "<group>"; };
+		435E4F560899AF502B0033437DD2B859 /* ReachabilitySwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ReachabilitySwift.modulemap; sourceTree = "<group>"; };
+		4381662BADCA0C55EB797D8EBC8764BC /* es.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = es.lproj; path = SVWebViewController/es.lproj; sourceTree = "<group>"; };
+		450D57CABE9D25BA27B73F197C260C9D /* SVModalWebViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVModalWebViewController.m; path = SVWebViewController/SVModalWebViewController.m; sourceTree = "<group>"; };
+		45D1FE50041E2D2A642905632B58920A /* EKPropertyMapping.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EKPropertyMapping.m; path = EasyMapping/EKPropertyMapping.m; sourceTree = "<group>"; };
+		47E58228A542A4B25C44958C8A26DFDE /* ReachabilitySwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReachabilitySwift.xcconfig; sourceTree = "<group>"; };
+		4A2F58473EC1B75682F69E126CEEB715 /* EKSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EKSerializer.h; path = EasyMapping/EKSerializer.h; sourceTree = "<group>"; };
+		4B6E821A865766A5966A4EBCD6CB0696 /* APAddressBook-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "APAddressBook-dummy.m"; sourceTree = "<group>"; };
+		4C056FF56D0DD74FBE3572BA2E6CF5C2 /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = en.lproj; path = SVWebViewController/en.lproj; sourceTree = "<group>"; };
+		4CFC92BED9919DCC90CB8D1F951BCFDC /* APContactDate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APContactDate.m; path = Pod/Core/Public/Models/APContactDate.m; sourceTree = "<group>"; };
+		4DB6E4D0784C10E4AE571AD998131574 /* MKTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKTextField.swift; path = Source/MKTextField.swift; sourceTree = "<group>"; };
+		4DE49AB82F139DB178B655D135640473 /* MaterialKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MaterialKit-umbrella.h"; sourceTree = "<group>"; };
+		50FDAC175F285FFA8B869FDD6173CF13 /* zh-Hant.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = "zh-Hant.lproj"; path = "SVWebViewController/zh-Hant.lproj"; sourceTree = "<group>"; };
+		51A13D633B36E3F160140AF3D01AA906 /* APAddressBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = APAddressBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51B362E0F7AB8015B71848BB4BF3CECE /* SVWebViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SVWebViewController.modulemap; sourceTree = "<group>"; };
+		533B2FE0D0E1BB52D224BFD9089F2391 /* EKPropertyMapping.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EKPropertyMapping.h; path = EasyMapping/EKPropertyMapping.h; sourceTree = "<group>"; };
+		53A2D72CAD109A760C781644DD5E1F20 /* APContactBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APContactBuilder.h; path = Pod/Core/Private/Builders/APContactBuilder.h; sourceTree = "<group>"; };
+		5FDAD093957E9D3BFCCFEC79F3C73C81 /* MaterialKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MaterialKit.xcconfig; sourceTree = "<group>"; };
+		6028A21556891B967B3E3B321C73FB6C /* APAddressBookContactsRoutine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APAddressBookContactsRoutine.m; path = Pod/Core/Private/Routine/APAddressBookContactsRoutine.m; sourceTree = "<group>"; };
+		649BD9DF460CAEB391EE586F69D2C9BE /* EKMappingBlocks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EKMappingBlocks.h; path = EasyMapping/EKMappingBlocks.h; sourceTree = "<group>"; };
+		64E98B863168C4BA10033605BBA97EA9 /* SVWebViewControllerActivitySafari.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVWebViewControllerActivitySafari.h; path = SVWebViewController/UIActivities/Safari/SVWebViewControllerActivitySafari.h; sourceTree = "<group>"; };
+		65ED0B14A1B80A44D32742E71FDBBEAE /* MKSwitch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKSwitch.swift; path = Source/MKSwitch.swift; sourceTree = "<group>"; };
+		66A71EC11792AB5E453B875E2207C074 /* SVWebViewControllerNext@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "SVWebViewControllerNext@2x.png"; path = "SVWebViewController/SVWebViewController.bundle/SVWebViewControllerNext@2x.png"; sourceTree = "<group>"; };
+		68CD98255039FDBF1B2DD61B94C14885 /* Pods-Nexus-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Nexus-acknowledgements.plist"; sourceTree = "<group>"; };
+		69725970C5301A35E5B4F7B1D935CB7C /* SVWebViewControllerBack.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = SVWebViewControllerBack.png; path = SVWebViewController/SVWebViewController.bundle/SVWebViewControllerBack.png; sourceTree = "<group>"; };
+		6BC259CC426C99F51D291A482ABD2CE8 /* Pods_Nexus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nexus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C89149D66B11DDE9F907D456D0B9C24 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CC96F0BF1B4929173CC91B13A2A0147 /* SVWebViewControllerActivitySafari@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "SVWebViewControllerActivitySafari@2x.png"; path = "SVWebViewController/UIActivities/Safari/SVWebViewControllerActivitySafari@2x.png"; sourceTree = "<group>"; };
+		6E49C205F9B5A8992A20E3489A229543 /* MKImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKImageView.swift; path = Source/MKImageView.swift; sourceTree = "<group>"; };
+		6F56D8571D4E40C9F244D2A8573C4C6C /* SVModalWebViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVModalWebViewController.h; path = SVWebViewController/SVModalWebViewController.h; sourceTree = "<group>"; };
+		6F8C753BA6DEE6A3F059C9329A66104C /* APAddressBook.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = APAddressBook.modulemap; sourceTree = "<group>"; };
+		71C667521D9985899B5AD038861EAD39 /* EKObjectMapping.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EKObjectMapping.m; path = EasyMapping/EKObjectMapping.m; sourceTree = "<group>"; };
+		7290E30ECA89996CBD8D85474BFD2911 /* APAddressBookBaseRoutine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APAddressBookBaseRoutine.m; path = Pod/Core/Private/Routine/Base/APAddressBookBaseRoutine.m; sourceTree = "<group>"; };
+		73365CC41057FD6A6B02D2EE7460023A /* APAddressBookBaseRoutine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APAddressBookBaseRoutine.h; path = Pod/Core/Private/Routine/Base/APAddressBookBaseRoutine.h; sourceTree = "<group>"; };
+		7401A49C60829A47392223317B4287B5 /* EKManagedObjectMapping.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EKManagedObjectMapping.m; path = EasyMapping/EKManagedObjectMapping.m; sourceTree = "<group>"; };
+		74991D299A46E442859D88EE86FC1F20 /* MaterialKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MaterialKit.modulemap; sourceTree = "<group>"; };
+		75639F48AE11E3551EAF5FDA0EE8048D /* APSocialProfile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APSocialProfile.m; path = Pod/Core/Public/Models/APSocialProfile.m; sourceTree = "<group>"; };
+		7803C8094D190469D4DDD638A3FF3617 /* EasyMapping-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EasyMapping-umbrella.h"; sourceTree = "<group>"; };
+		7B457C540E405954EBF967F0FE4B64AA /* MaterialKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MaterialKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D7F49571FB7B8A09468A345A6A2A69F /* EKMapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EKMapper.h; path = EasyMapping/EKMapper.h; sourceTree = "<group>"; };
+		7DF38B78F7679DB3FAACFA31391280D1 /* Pods-Nexus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Nexus.debug.xcconfig"; sourceTree = "<group>"; };
+		7E6D873B1F574370D0B1EC8715835AA5 /* SVWebViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVWebViewController.h; path = SVWebViewController/SVWebViewController.h; sourceTree = "<group>"; };
+		7F8F604716B014B054302AAD99F42939 /* APRecordDate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APRecordDate.m; path = Pod/Core/Public/Models/APRecordDate.m; sourceTree = "<group>"; };
+		7F949FE7922106754DA78F7C7B45E8E5 /* APContactDate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APContactDate.h; path = Pod/Core/Public/Models/APContactDate.h; sourceTree = "<group>"; };
+		80B1349BA5B0F0F08611D9802259E00B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		819939128B7C14BA7F06601A1C2B78D6 /* EKObjectModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EKObjectModel.m; path = EasyMapping/EKObjectModel.m; sourceTree = "<group>"; };
+		832D1F19430AD58477533F6192B0D71E /* MKNavigationBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKNavigationBar.swift; path = Source/MKNavigationBar.swift; sourceTree = "<group>"; };
+		84C32E14C2694EB0F499CF68641DA173 /* SVWebViewControllerActivitySafari-iPad@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "SVWebViewControllerActivitySafari-iPad@2x.png"; path = "SVWebViewController/UIActivities/Safari/SVWebViewControllerActivitySafari-iPad@2x.png"; sourceTree = "<group>"; };
+		865624EF4E7D285584ABE54E05E2944C /* APAddressBook-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "APAddressBook-umbrella.h"; sourceTree = "<group>"; };
+		8D09A6A8AF5340F339E701364E4BD701 /* EasyMapping.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = EasyMapping.modulemap; sourceTree = "<group>"; };
+		8E55CCA2BCEC0ED90F7F12939AA89B06 /* MKEmbedMainControllerSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKEmbedMainControllerSegue.swift; path = Source/MKEmbedMainControllerSegue.swift; sourceTree = "<group>"; };
+		8F04CF196E3342251C49D56061A54A14 /* ReachabilitySwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReachabilitySwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FE374750FA388E5A0D98F7681C34CD2 /* APAddressBookExternalChangeRoutine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APAddressBookExternalChangeRoutine.m; path = Pod/Core/Private/Routine/APAddressBookExternalChangeRoutine.m; sourceTree = "<group>"; };
+		9143AE724C2BFD91010BC0BBADE76A9D /* es-ES.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = "es-ES.lproj"; path = "SVWebViewController/es-ES.lproj"; sourceTree = "<group>"; };
+		916C085950C8C49D86E1651325246169 /* EasyMapping-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EasyMapping-prefix.pch"; sourceTree = "<group>"; };
+		91B73384B9830513B25A11C65F1D1975 /* SVWebViewControllerActivitySafari.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVWebViewControllerActivitySafari.m; path = SVWebViewController/UIActivities/Safari/SVWebViewControllerActivitySafari.m; sourceTree = "<group>"; };
+		92D56769E13801C961F7C27A6D10C8EA /* APContact+EasyMapping.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "APContact+EasyMapping.m"; path = "Sources/APContact+EasyMapping.m"; sourceTree = "<group>"; };
+		92F1999C336B24F326F49892F084F185 /* APContactEasyMapping.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = APContactEasyMapping.xcconfig; sourceTree = "<group>"; };
+		93508EBC73F76EA5F91EBC5203EA05A3 /* NSArray+FlattenArray.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+FlattenArray.m"; path = "EasyMapping/NSArray+FlattenArray.m"; sourceTree = "<group>"; };
+		94AB3522269C0900F16374A0FA260F95 /* APPhone.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APPhone.m; path = Pod/Core/Public/Models/APPhone.m; sourceTree = "<group>"; };
+		9697AF98D266FC3232D3C59F574E3ABE /* APPhone.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APPhone.h; path = Pod/Core/Public/Models/APPhone.h; sourceTree = "<group>"; };
+		96DBE6A402C69BED97AFA17744CF2B89 /* APAddress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APAddress.h; path = Pod/Core/Public/Models/APAddress.h; sourceTree = "<group>"; };
+		97D2DE77DA5C74FABC8403B38594B5AB /* SVWebViewControllerActivityChrome.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVWebViewControllerActivityChrome.m; path = SVWebViewController/UIActivities/Chrome/SVWebViewControllerActivityChrome.m; sourceTree = "<group>"; };
+		99496572BC2B0617F323CEF7AF3A5008 /* APContactEasyMapping-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "APContactEasyMapping-umbrella.h"; sourceTree = "<group>"; };
+		994F950083040F5AF3FC16F2FF91A3A0 /* EKManagedObjectMapping.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EKManagedObjectMapping.h; path = EasyMapping/EKManagedObjectMapping.h; sourceTree = "<group>"; };
+		9AECEB96C08898635C3CCFEFBA973F32 /* SVWebViewControllerActivityChrome-iPad@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "SVWebViewControllerActivityChrome-iPad@2x.png"; path = "SVWebViewController/UIActivities/Chrome/SVWebViewControllerActivityChrome-iPad@2x.png"; sourceTree = "<group>"; };
+		9D2A8B78259FD5D77914F69D6F92B6D4 /* APContactEasyMapping.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = APContactEasyMapping.modulemap; sourceTree = "<group>"; };
+		9DFB1AB1A6D560330D1FE71B2C123F5D /* APAddressBookRefWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APAddressBookRefWrapper.h; path = Pod/Core/Private/Wrapper/APAddressBookRefWrapper.h; sourceTree = "<group>"; };
+		9EDD14219216D5305713A9F90190493D /* APImageExtractor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APImageExtractor.h; path = Pod/Core/Private/Extractors/APImageExtractor.h; sourceTree = "<group>"; };
+		9F09C8A3A5F60DDE8FC388B36A02A6EE /* APSocialServiceHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APSocialServiceHelper.m; path = Pod/Core/Private/Helpers/APSocialServiceHelper.m; sourceTree = "<group>"; };
+		A07C2951A5959CC4282A25F25D894B9C /* MKSideDrawerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKSideDrawerViewController.swift; path = Source/MKSideDrawerViewController.swift; sourceTree = "<group>"; };
+		A4FA1CA8237D0B0C3F3D87F4731D1512 /* EKManagedObjectMapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EKManagedObjectMapper.h; path = EasyMapping/EKManagedObjectMapper.h; sourceTree = "<group>"; };
+		A8FC5AADA0A5EA11C52AD66D0EE4C06C /* SVWebViewControllerActivity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVWebViewControllerActivity.m; path = SVWebViewController/UIActivities/SVWebViewControllerActivity.m; sourceTree = "<group>"; };
+		AA641686FFC7402C8CFE3853F78EEDA7 /* MKTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKTableViewCell.swift; path = Source/MKTableViewCell.swift; sourceTree = "<group>"; };
+		AABAD3E901DBBCA63A48AB1083136E94 /* APSocialProfile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APSocialProfile.h; path = Pod/Core/Public/Models/APSocialProfile.h; sourceTree = "<group>"; };
+		ACB17A1F358275753BD22225F10508CF /* APContactDataExtractor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APContactDataExtractor.h; path = Pod/Core/Private/Extractors/APContactDataExtractor.h; sourceTree = "<group>"; };
+		B150929F7C3EA7DA89A390C9310B67AA /* EKRelationshipMapping.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EKRelationshipMapping.m; path = EasyMapping/EKRelationshipMapping.m; sourceTree = "<group>"; };
+		B2A247659DE33D6EE9BF282F36B8640E /* EKSerializer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EKSerializer.m; path = EasyMapping/EKSerializer.m; sourceTree = "<group>"; };
+		B31AB35E0749C9E889E41548BBCC7B39 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5E834EB191BB5C16A2FEF1F10C402DB /* APContactListBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APContactListBuilder.m; path = Pod/Core/Private/Builders/APContactListBuilder.m; sourceTree = "<group>"; };
+		B5F21C76532D65538213929E2AB2AABA /* MKActivityIndicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKActivityIndicator.swift; path = Source/MKActivityIndicator.swift; sourceTree = "<group>"; };
+		B79AD0013A74123F673AB0F198E24ABF /* SVWebViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVWebViewController-dummy.m"; sourceTree = "<group>"; };
+		B8703D07B94D68610E1D5EDC415FF804 /* EKCoreDataImporter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EKCoreDataImporter.m; path = EasyMapping/EKCoreDataImporter.m; sourceTree = "<group>"; };
+		B999D6FE3FB302F346BB00B28B4506F0 /* APName.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APName.m; path = Pod/Core/Public/Models/APName.m; sourceTree = "<group>"; };
+		B9ECB495FAFBFABBD0B445B9845DFEFC /* MaterialKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MaterialKit-dummy.m"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BADBF658BC11DE82B3CE01E17771332E /* EKManagedObjectMapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EKManagedObjectMapper.m; path = EasyMapping/EKManagedObjectMapper.m; sourceTree = "<group>"; };
+		BF3862086546A837F9F4A511340F7B07 /* APRelatedPerson.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APRelatedPerson.h; path = Pod/Core/Public/Models/APRelatedPerson.h; sourceTree = "<group>"; };
+		C101316FD1DB9B9C1DC6F74CAB072072 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3187E29D5BFF7AF680A895CBE429B25 /* EKMappingProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EKMappingProtocol.h; path = EasyMapping/EKMappingProtocol.h; sourceTree = "<group>"; };
+		C365C759BB738DE22496ED24F173F038 /* SVWebViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVWebViewController-umbrella.h"; sourceTree = "<group>"; };
+		C77EEA925E46777525856FF42A0FD0CE /* APAddressBookAccessRoutine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APAddressBookAccessRoutine.h; path = Pod/Core/Private/Routine/APAddressBookAccessRoutine.h; sourceTree = "<group>"; };
+		C7D9CA45FAFDC577CE69EC7003B21AF8 /* EKManagedObjectModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EKManagedObjectModel.m; path = EasyMapping/EKManagedObjectModel.m; sourceTree = "<group>"; };
+		C82D4C42729192AB506EBD547A02ED5D /* APRelatedPerson.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APRelatedPerson.m; path = Pod/Core/Public/Models/APRelatedPerson.m; sourceTree = "<group>"; };
+		C85CF771A1043A64087F8EB0C9EF6225 /* APAddressBookContactsRoutine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APAddressBookContactsRoutine.h; path = Pod/Core/Private/Routine/APAddressBookContactsRoutine.h; sourceTree = "<group>"; };
+		CDF7862567B6380DF70641AB081D812C /* SVWebViewControllerActivityChrome@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "SVWebViewControllerActivityChrome@2x.png"; path = "SVWebViewController/UIActivities/Chrome/SVWebViewControllerActivityChrome@2x.png"; sourceTree = "<group>"; };
+		CE7F2BF331132B006C1B7D1DFDB82E91 /* SVWebViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVWebViewController.xcconfig; sourceTree = "<group>"; };
+		CEC04DAD7863CC6B157CA86BCAC51035 /* APContactBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APContactBuilder.m; path = Pod/Core/Private/Builders/APContactBuilder.m; sourceTree = "<group>"; };
+		CF1988134EA38D163E38DFA97FE9C409 /* APAddressBookAccessRoutine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APAddressBookAccessRoutine.m; path = Pod/Core/Private/Routine/APAddressBookAccessRoutine.m; sourceTree = "<group>"; };
+		CF77354853942C0E34DCDCA96C24F908 /* APAddressBook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APAddressBook.h; path = Pod/Core/Public/APAddressBook.h; sourceTree = "<group>"; };
+		CFB342AB4EBC64A66B522558599B5AB0 /* APAddress.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APAddress.m; path = Pod/Core/Public/Models/APAddress.m; sourceTree = "<group>"; };
+		CFD92C6CEA1EFE3DC5DBB9997ADD5785 /* NSDateFormatter+EasyMappingAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDateFormatter+EasyMappingAdditions.m"; path = "EasyMapping/NSDateFormatter+EasyMappingAdditions.m"; sourceTree = "<group>"; };
+		D05CA469C35657E42E2CD848F36E791C /* APContact+EasyMapping.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "APContact+EasyMapping.h"; path = "Sources/APContact+EasyMapping.h"; sourceTree = "<group>"; };
+		D170A4E0A259CB868876E5683E5053B4 /* APName.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APName.h; path = Pod/Core/Public/Models/APName.h; sourceTree = "<group>"; };
+		D1C9309194A62BB490176916EE590451 /* SVWebViewController.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVWebViewController.bundle; path = SVWebViewController/SVWebViewController.bundle; sourceTree = "<group>"; };
+		D235DB5A4D9E2F32BCFBBD33218AB35F /* Pods-Nexus.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Nexus.modulemap"; sourceTree = "<group>"; };
+		D45AD9419629AD97F1F705A4DC1BDF14 /* Reachability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = Reachability/Reachability.swift; sourceTree = "<group>"; };
+		D4659A556BE1C79D870399892D70992F /* ReachabilitySwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-umbrella.h"; sourceTree = "<group>"; };
+		D4DE1450E8CD08CC0112057471D56D2A /* MKCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKCollectionViewCell.swift; path = Source/MKCollectionViewCell.swift; sourceTree = "<group>"; };
+		D74B503E7F163B22B201C1EE5745DEA4 /* da.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = da.lproj; path = SVWebViewController/da.lproj; sourceTree = "<group>"; };
+		D77335A2DA73C4B4836AFD0A785DF762 /* MKLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKLayer.swift; path = Source/MKLayer.swift; sourceTree = "<group>"; };
+		D80CACBC4A27866490BA24B26B3B6D53 /* Pods-Nexus-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Nexus-umbrella.h"; sourceTree = "<group>"; };
+		DC595CD843E5ED89D30A859BBC3BFAAB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DC5E63F864A41FD0DB7A50765ABB4891 /* EKObjectMapping.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EKObjectMapping.h; path = EasyMapping/EKObjectMapping.h; sourceTree = "<group>"; };
+		DD15722705412620895F4F5AF8A6A443 /* APJob.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APJob.h; path = Pod/Core/Public/Models/APJob.h; sourceTree = "<group>"; };
+		E06DEB3D9BF352DCF9D93913D6FB3EA2 /* ja.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ja.lproj; path = SVWebViewController/ja.lproj; sourceTree = "<group>"; };
+		E11EA5D1CA55B2244511868D6A5BAC08 /* Pods-Nexus-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Nexus-resources.sh"; sourceTree = "<group>"; };
+		E25B0B3DD7C716D7FD9E9E9EF6BEE518 /* APAddressBookExternalChangeRoutine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APAddressBookExternalChangeRoutine.h; path = Pod/Core/Private/Routine/APAddressBookExternalChangeRoutine.h; sourceTree = "<group>"; };
+		E3B185755C79D4D0122B24696F0E5AD1 /* pt.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = pt.lproj; path = SVWebViewController/pt.lproj; sourceTree = "<group>"; };
+		E3D773DAB53F9FFFC59F64FFF0DBEE13 /* APContact.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APContact.h; path = Pod/Core/Public/Models/APContact.h; sourceTree = "<group>"; };
+		E453AF3D7C439CE32AB9B8B485F2714C /* EasyMapping.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EasyMapping.h; path = EasyMapping/EasyMapping.h; sourceTree = "<group>"; };
+		E4BBC95DF7C34C751B7E4BF19347E745 /* SVWebViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVWebViewController.m; path = SVWebViewController/SVWebViewController.m; sourceTree = "<group>"; };
+		EC02FECF79F61A58A73B28837A0BB715 /* SVWebViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SVWebViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC4C0B024A45FECD447E23CD332669AD /* SVWebViewControllerActivitySafari-iPad.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "SVWebViewControllerActivitySafari-iPad.png"; path = "SVWebViewController/UIActivities/Safari/SVWebViewControllerActivitySafari-iPad.png"; sourceTree = "<group>"; };
+		EF3C0A61223C3548574307B4BE75AA69 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0C3C9740AF83A95A1DBAD4E13A34182 /* de.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = de.lproj; path = SVWebViewController/de.lproj; sourceTree = "<group>"; };
+		F1B3A16A8EE374BC1743DF1876CCECBB /* Pods-Nexus-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Nexus-dummy.m"; sourceTree = "<group>"; };
+		F2DFF5AE8CCB4C416086EDEDDF7385D9 /* APSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APSource.h; path = Pod/Core/Public/Models/APSource.h; sourceTree = "<group>"; };
+		F2F4230232FEF51814E2BE01EF72866C /* APAddressBook-Bridging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "APAddressBook-Bridging.h"; path = "Pod/Swift/APAddressBook-Bridging.h"; sourceTree = "<group>"; };
+		F31A8D5E65FD6E781424B9B799D566FD /* EKRelationshipMapping.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EKRelationshipMapping.h; path = EasyMapping/EKRelationshipMapping.h; sourceTree = "<group>"; };
+		F4C34AE7C87FA4B9825F81BB43602B80 /* Pods-Nexus-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Nexus-frameworks.sh"; sourceTree = "<group>"; };
+		F64A0B36F15D06DD6A20AA6CFFA5F980 /* SVWebViewControllerActivity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVWebViewControllerActivity.h; path = SVWebViewController/UIActivities/SVWebViewControllerActivity.h; sourceTree = "<group>"; };
+		F76EF0E10C2B209B95462B3721738FF5 /* APJob.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APJob.m; path = Pod/Core/Public/Models/APJob.m; sourceTree = "<group>"; };
+		F87CCAFC6371373409B840BFF12FC82C /* APAddressBook.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = APAddressBook.xcconfig; sourceTree = "<group>"; };
+		F9B287AD0FDAC3FF8F4FDD62F70EACF2 /* NSArray+FlattenArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+FlattenArray.h"; path = "EasyMapping/NSArray+FlattenArray.h"; sourceTree = "<group>"; };
+		FC81D870BF5942193B443A7B5CF606F9 /* EKPropertyHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EKPropertyHelper.h; path = EasyMapping/EKPropertyHelper.h; sourceTree = "<group>"; };
+		FE19B5DB673747B4D1DD98DAD5C4E893 /* Pods-Nexus-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Nexus-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FEA6D317118128CF954C08D296FCC8E0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		211EEA196CFBD9BDABE66FB27BF1812C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C965774052938CB5DD51651D7C25D5FC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FD677B2E93FC35607EE149CD8FAC9A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C85FDBC7B5FCD8C753D218F71747C05C /* APAddressBook.framework in Frameworks */,
+				0719FD66FD15DD340134C08189FF6EC2 /* EasyMapping.framework in Frameworks */,
+				94AAE1495826B53C9AC0319AB0330A40 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		751399B98A6E08A424E44CBFF17B6CCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFAD06952486DBEA0F84035654727DDF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		755B193A159BB34D971715F55AE6FBB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF90B7A9515137B1964539386AE37708 /* CoreData.framework in Frameworks */,
+				9D22DA0AE3A97D6C9B30BAE9DC540581 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A62C672275E3A81C24157E9627C6CB59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BFF5BE40067EC2FE05CC8B1E3247310 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA44E0871CADBCCDF1D03BC91FA70F3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46459B02049525E5750257391AF1EEB2 /* Foundation.framework in Frameworks */,
+				BF211054FB7EED91112C850B345340AF /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F313C8EB6D974B98B705B5A7E43BB1EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8214AB963135D714481DFED632CF2B09 /* AddressBook.framework in Frameworks */,
+				0244632E7101F3671D417752FEAA6D62 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1126F68DE1A7896FA4F0E46321B1119D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D1942BD4B78F73E86FD05CB8FA00F49 /* Pods-Nexus */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		140BA3811120F309D313074144BE2BF0 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				F2F4230232FEF51814E2BE01EF72866C /* APAddressBook-Bridging.h */,
+			);
+			name = Swift;
+			sourceTree = "<group>";
+		};
+		147AD7AF28AA6983CDB9A6C748CD7B43 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D74B503E7F163B22B201C1EE5745DEA4 /* da.lproj */,
+				F0C3C9740AF83A95A1DBAD4E13A34182 /* de.lproj */,
+				4C056FF56D0DD74FBE3572BA2E6CF5C2 /* en.lproj */,
+				4381662BADCA0C55EB797D8EBC8764BC /* es.lproj */,
+				9143AE724C2BFD91010BC0BBADE76A9D /* es-ES.lproj */,
+				0733C5EEE7868AC87F054A2D5A09D6EE /* fr.lproj */,
+				E06DEB3D9BF352DCF9D93913D6FB3EA2 /* ja.lproj */,
+				E3B185755C79D4D0122B24696F0E5AD1 /* pt.lproj */,
+				D1C9309194A62BB490176916EE590451 /* SVWebViewController.bundle */,
+				153877114A6264FF5DA18FE64521BAD5 /* SVWebViewControllerActivityChrome-iPad.png */,
+				9AECEB96C08898635C3CCFEFBA973F32 /* SVWebViewControllerActivityChrome-iPad@2x.png */,
+				CDF7862567B6380DF70641AB081D812C /* SVWebViewControllerActivityChrome@2x.png */,
+				EC4C0B024A45FECD447E23CD332669AD /* SVWebViewControllerActivitySafari-iPad.png */,
+				84C32E14C2694EB0F499CF68641DA173 /* SVWebViewControllerActivitySafari-iPad@2x.png */,
+				6CC96F0BF1B4929173CC91B13A2A0147 /* SVWebViewControllerActivitySafari@2x.png */,
+				69725970C5301A35E5B4F7B1D935CB7C /* SVWebViewControllerBack.png */,
+				2BEEB14861A8BECAFF1BCB3988218BBD /* SVWebViewControllerBack@2x.png */,
+				0B9B45CBA50602615C2F8D5319FB1D04 /* SVWebViewControllerNext.png */,
+				66A71EC11792AB5E453B875E2207C074 /* SVWebViewControllerNext@2x.png */,
+				287AA7EE4307C66DE50A8350109BAB73 /* zh-Hans.lproj */,
+				50FDAC175F285FFA8B869FDD6173CF13 /* zh-Hant.lproj */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1B976A07F005562C0A638CD2A29048A7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5AFEE1B43CB7B708954D0793FD9F337 /* APAddressBook */,
+				BD5516DB8CDFDFF36CF6D97B22A96B2C /* APContactEasyMapping */,
+				8A8629E2A28C524CAEA0793FE706B377 /* EasyMapping */,
+				ACB665004E1E5834D1DBBF031A723505 /* MaterialKit */,
+				3886A131DB1513DFAED406C01F457196 /* ReachabilitySwift */,
+				FC0BB3842F7FC3F2AD8266F407191798 /* SVWebViewController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1C1FA8A0790F227053F5E0F2C4CED13B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1B05A7FE3261C2184E48DCFC58948942 /* AddressBook.framework */,
+				01E244320C6624C116225DF6762DAE1A /* CoreData.framework */,
+				DC595CD843E5ED89D30A859BBC3BFAAB /* Foundation.framework */,
+				015CFE03272F8DE7229DB611CC3C43A9 /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		3019E2F174596403F184A7602C7DC0B5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F8C753BA6DEE6A3F059C9329A66104C /* APAddressBook.modulemap */,
+				F87CCAFC6371373409B840BFF12FC82C /* APAddressBook.xcconfig */,
+				4B6E821A865766A5966A4EBCD6CB0696 /* APAddressBook-dummy.m */,
+				3421DF079D24491879D9562D5FD565C5 /* APAddressBook-prefix.pch */,
+				865624EF4E7D285584ABE54E05E2944C /* APAddressBook-umbrella.h */,
+				3EAF25EDE9E13D75CD0723A821100067 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/APAddressBook";
+			sourceTree = "<group>";
+		};
+		3600B1622405B129B87131E7706378F4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				80B1349BA5B0F0F08611D9802259E00B /* Info.plist */,
+				435E4F560899AF502B0033437DD2B859 /* ReachabilitySwift.modulemap */,
+				47E58228A542A4B25C44958C8A26DFDE /* ReachabilitySwift.xcconfig */,
+				067CD151E7AA6F5D18FAF5F43B85855F /* ReachabilitySwift-dummy.m */,
+				187FD94847CD748D5A53FB35DB796AE5 /* ReachabilitySwift-prefix.pch */,
+				D4659A556BE1C79D870399892D70992F /* ReachabilitySwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ReachabilitySwift";
+			sourceTree = "<group>";
+		};
+		3886A131DB1513DFAED406C01F457196 /* ReachabilitySwift */ = {
+			isa = PBXGroup;
+			children = (
+				D45AD9419629AD97F1F705A4DC1BDF14 /* Reachability.swift */,
+				3600B1622405B129B87131E7706378F4 /* Support Files */,
+			);
+			path = ReachabilitySwift;
+			sourceTree = "<group>";
+		};
+		6980CC68649337D751FB894953600290 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEA6D317118128CF954C08D296FCC8E0 /* Info.plist */,
+				74991D299A46E442859D88EE86FC1F20 /* MaterialKit.modulemap */,
+				5FDAD093957E9D3BFCCFEC79F3C73C81 /* MaterialKit.xcconfig */,
+				B9ECB495FAFBFABBD0B445B9845DFEFC /* MaterialKit-dummy.m */,
+				0954CF9736DA05FEEE0224CF78621853 /* MaterialKit-prefix.pch */,
+				4DE49AB82F139DB178B655D135640473 /* MaterialKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MaterialKit";
+			sourceTree = "<group>";
+		};
+		7430E6B6D8A6293D60594236A12D182D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D2A8B78259FD5D77914F69D6F92B6D4 /* APContactEasyMapping.modulemap */,
+				92F1999C336B24F326F49892F084F185 /* APContactEasyMapping.xcconfig */,
+				15223AE2FB0AF3BC7B3F6B7BA7775D8E /* APContactEasyMapping-dummy.m */,
+				0CD1F26E492C91CCF3AD46F7C6D4F294 /* APContactEasyMapping-prefix.pch */,
+				99496572BC2B0617F323CEF7AF3A5008 /* APContactEasyMapping-umbrella.h */,
+				B31AB35E0749C9E889E41548BBCC7B39 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/APContactEasyMapping";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				F170F60B7CCEC38E5C8C4F4A3314D5A6 /* Frameworks */,
+				1B976A07F005562C0A638CD2A29048A7 /* Pods */,
+				B51DFA366823042D37E5E7F9481A01BB /* Products */,
+				1126F68DE1A7896FA4F0E46321B1119D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8A8629E2A28C524CAEA0793FE706B377 /* EasyMapping */ = {
+			isa = PBXGroup;
+			children = (
+				EC5EF3EBCB76DB6B72B8BF7E3DE10B77 /* Core */,
+				9AD705D04E57D874EBCEB76B517A36FB /* Support Files */,
+			);
+			path = EasyMapping;
+			sourceTree = "<group>";
+		};
+		8CAF740CBB25286DB9B3868708EAC88E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C101316FD1DB9B9C1DC6F74CAB072072 /* Info.plist */,
+				51B362E0F7AB8015B71848BB4BF3CECE /* SVWebViewController.modulemap */,
+				CE7F2BF331132B006C1B7D1DFDB82E91 /* SVWebViewController.xcconfig */,
+				B79AD0013A74123F673AB0F198E24ABF /* SVWebViewController-dummy.m */,
+				1B1617AD896186485A1F6154D46CC5B8 /* SVWebViewController-prefix.pch */,
+				C365C759BB738DE22496ED24F173F038 /* SVWebViewController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SVWebViewController";
+			sourceTree = "<group>";
+		};
+		8D1942BD4B78F73E86FD05CB8FA00F49 /* Pods-Nexus */ = {
+			isa = PBXGroup;
+			children = (
+				EF3C0A61223C3548574307B4BE75AA69 /* Info.plist */,
+				D235DB5A4D9E2F32BCFBBD33218AB35F /* Pods-Nexus.modulemap */,
+				FE19B5DB673747B4D1DD98DAD5C4E893 /* Pods-Nexus-acknowledgements.markdown */,
+				68CD98255039FDBF1B2DD61B94C14885 /* Pods-Nexus-acknowledgements.plist */,
+				F1B3A16A8EE374BC1743DF1876CCECBB /* Pods-Nexus-dummy.m */,
+				F4C34AE7C87FA4B9825F81BB43602B80 /* Pods-Nexus-frameworks.sh */,
+				E11EA5D1CA55B2244511868D6A5BAC08 /* Pods-Nexus-resources.sh */,
+				D80CACBC4A27866490BA24B26B3B6D53 /* Pods-Nexus-umbrella.h */,
+				7DF38B78F7679DB3FAACFA31391280D1 /* Pods-Nexus.debug.xcconfig */,
+				07E9B86285C023101EDC55A470BF20F3 /* Pods-Nexus.release.xcconfig */,
+			);
+			name = "Pods-Nexus";
+			path = "Target Support Files/Pods-Nexus";
+			sourceTree = "<group>";
+		};
+		8F02FECC6E1B3709E71FDAEFE431C6DD /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				96DBE6A402C69BED97AFA17744CF2B89 /* APAddress.h */,
+				CFB342AB4EBC64A66B522558599B5AB0 /* APAddress.m */,
+				CF77354853942C0E34DCDCA96C24F908 /* APAddressBook.h */,
+				1E3C336E550D5E07A4E018A6D2BD732F /* APAddressBook.m */,
+				C77EEA925E46777525856FF42A0FD0CE /* APAddressBookAccessRoutine.h */,
+				CF1988134EA38D163E38DFA97FE9C409 /* APAddressBookAccessRoutine.m */,
+				73365CC41057FD6A6B02D2EE7460023A /* APAddressBookBaseRoutine.h */,
+				7290E30ECA89996CBD8D85474BFD2911 /* APAddressBookBaseRoutine.m */,
+				C85CF771A1043A64087F8EB0C9EF6225 /* APAddressBookContactsRoutine.h */,
+				6028A21556891B967B3E3B321C73FB6C /* APAddressBookContactsRoutine.m */,
+				04E543A08214A3CAC39C0A6E800ABD04 /* APAddressBookExternalChangeDelegate.h */,
+				E25B0B3DD7C716D7FD9E9E9EF6BEE518 /* APAddressBookExternalChangeRoutine.h */,
+				8FE374750FA388E5A0D98F7681C34CD2 /* APAddressBookExternalChangeRoutine.m */,
+				9DFB1AB1A6D560330D1FE71B2C123F5D /* APAddressBookRefWrapper.h */,
+				41BCF490D3D5DF6F3769DB10A3B6611A /* APAddressBookRefWrapper.m */,
+				E3D773DAB53F9FFFC59F64FFF0DBEE13 /* APContact.h */,
+				00A2D0E8AEB78020A73CF7D6BB097BB5 /* APContact.m */,
+				53A2D72CAD109A760C781644DD5E1F20 /* APContactBuilder.h */,
+				CEC04DAD7863CC6B157CA86BCAC51035 /* APContactBuilder.m */,
+				ACB17A1F358275753BD22225F10508CF /* APContactDataExtractor.h */,
+				02F4A785452D05415914609F70FEFB62 /* APContactDataExtractor.m */,
+				7F949FE7922106754DA78F7C7B45E8E5 /* APContactDate.h */,
+				4CFC92BED9919DCC90CB8D1F951BCFDC /* APContactDate.m */,
+				2869819A5B1F38ECB438958C546B2D78 /* APContactListBuilder.h */,
+				B5E834EB191BB5C16A2FEF1F10C402DB /* APContactListBuilder.m */,
+				2487F40EFD9B2F3C991BE85B75EFCBDB /* APDeprecated.h */,
+				124E91F6B87E0081F4AC186C574E9380 /* APEmail.h */,
+				0FDFFE3575DC6D9B2A40EDBA42FC9AB2 /* APEmail.m */,
+				9EDD14219216D5305713A9F90190493D /* APImageExtractor.h */,
+				35B16F3B5443177E475E2F1996435D8F /* APImageExtractor.m */,
+				DD15722705412620895F4F5AF8A6A443 /* APJob.h */,
+				F76EF0E10C2B209B95462B3721738FF5 /* APJob.m */,
+				D170A4E0A259CB868876E5683E5053B4 /* APName.h */,
+				B999D6FE3FB302F346BB00B28B4506F0 /* APName.m */,
+				9697AF98D266FC3232D3C59F574E3ABE /* APPhone.h */,
+				94AB3522269C0900F16374A0FA260F95 /* APPhone.m */,
+				294E5412952500B789612B701E566141 /* APRecordDate.h */,
+				7F8F604716B014B054302AAD99F42939 /* APRecordDate.m */,
+				BF3862086546A837F9F4A511340F7B07 /* APRelatedPerson.h */,
+				C82D4C42729192AB506EBD547A02ED5D /* APRelatedPerson.m */,
+				AABAD3E901DBBCA63A48AB1083136E94 /* APSocialProfile.h */,
+				75639F48AE11E3551EAF5FDA0EE8048D /* APSocialProfile.m */,
+				328DFDB0F20CAD8AF82B65DE5AAA5B85 /* APSocialServiceHelper.h */,
+				9F09C8A3A5F60DDE8FC388B36A02A6EE /* APSocialServiceHelper.m */,
+				F2DFF5AE8CCB4C416086EDEDDF7385D9 /* APSource.h */,
+				065CDB5D96609868E2E693775F7F91AC /* APSource.m */,
+				0C7CBDF004039CD75C2917AD445E3000 /* APThread.h */,
+				1F9CBE17957CB866A93A201A83772B68 /* APThread.m */,
+				289C369410D2ECCAB8D2BC2695D22C28 /* APTypes.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		9AD705D04E57D874EBCEB76B517A36FB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D09A6A8AF5340F339E701364E4BD701 /* EasyMapping.modulemap */,
+				0040FC2912D555BDEC92B2F5CDBBB6EA /* EasyMapping.xcconfig */,
+				2620F14A8CF6AD8D6C4264950C687A6B /* EasyMapping-dummy.m */,
+				916C085950C8C49D86E1651325246169 /* EasyMapping-prefix.pch */,
+				7803C8094D190469D4DDD638A3FF3617 /* EasyMapping-umbrella.h */,
+				6C89149D66B11DDE9F907D456D0B9C24 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/EasyMapping";
+			sourceTree = "<group>";
+		};
+		ACB665004E1E5834D1DBBF031A723505 /* MaterialKit */ = {
+			isa = PBXGroup;
+			children = (
+				B5F21C76532D65538213929E2AB2AABA /* MKActivityIndicator.swift */,
+				3C412AED4D9F4427F29D3070379861DB /* MKButton.swift */,
+				0612FD07316D509E8E446F6A81363597 /* MKCardView.swift */,
+				D4DE1450E8CD08CC0112057471D56D2A /* MKCollectionViewCell.swift */,
+				3DE17422893931C508017BEA7C51B33D /* MKColor.swift */,
+				0EEEB46E35EEDD97673755995F8B0A0F /* MKEmbedDrawerControllerSegue.swift */,
+				8E55CCA2BCEC0ED90F7F12939AA89B06 /* MKEmbedMainControllerSegue.swift */,
+				6E49C205F9B5A8992A20E3489A229543 /* MKImageView.swift */,
+				39A80E36661E01D978A39A7869F6E760 /* MKLabel.swift */,
+				D77335A2DA73C4B4836AFD0A785DF762 /* MKLayer.swift */,
+				832D1F19430AD58477533F6192B0D71E /* MKNavigationBar.swift */,
+				1AA67EE514367EF0136E37223552DCF8 /* MKRefreshControl.swift */,
+				A07C2951A5959CC4282A25F25D894B9C /* MKSideDrawerViewController.swift */,
+				1A3D51DA3AF1C2B80AA66BA317BBA16D /* MKSnackbar.swift */,
+				65ED0B14A1B80A44D32742E71FDBBEAE /* MKSwitch.swift */,
+				AA641686FFC7402C8CFE3853F78EEDA7 /* MKTableViewCell.swift */,
+				4DB6E4D0784C10E4AE571AD998131574 /* MKTextField.swift */,
+				6980CC68649337D751FB894953600290 /* Support Files */,
+			);
+			path = MaterialKit;
+			sourceTree = "<group>";
+		};
+		B51DFA366823042D37E5E7F9481A01BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C4459F2A274BCB75EC8A5522B28BC9C /* APAddressBook.framework */,
+				2CEC3C443B998F5BAFB454367EFCF5F2 /* APContactEasyMapping.framework */,
+				3465B2B43C2CF3F2570D0B2E682689FA /* EasyMapping.framework */,
+				7B457C540E405954EBF967F0FE4B64AA /* MaterialKit.framework */,
+				6BC259CC426C99F51D291A482ABD2CE8 /* Pods_Nexus.framework */,
+				8F04CF196E3342251C49D56061A54A14 /* ReachabilitySwift.framework */,
+				EC02FECF79F61A58A73B28837A0BB715 /* SVWebViewController.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD5516DB8CDFDFF36CF6D97B22A96B2C /* APContactEasyMapping */ = {
+			isa = PBXGroup;
+			children = (
+				D05CA469C35657E42E2CD848F36E791C /* APContact+EasyMapping.h */,
+				92D56769E13801C961F7C27A6D10C8EA /* APContact+EasyMapping.m */,
+				7430E6B6D8A6293D60594236A12D182D /* Support Files */,
+			);
+			path = APContactEasyMapping;
+			sourceTree = "<group>";
+		};
+		EC5EF3EBCB76DB6B72B8BF7E3DE10B77 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E453AF3D7C439CE32AB9B8B485F2714C /* EasyMapping.h */,
+				215A64EA2B772F0635D7DA411DCD02A3 /* EKCoreDataImporter.h */,
+				B8703D07B94D68610E1D5EDC415FF804 /* EKCoreDataImporter.m */,
+				A4FA1CA8237D0B0C3F3D87F4731D1512 /* EKManagedObjectMapper.h */,
+				BADBF658BC11DE82B3CE01E17771332E /* EKManagedObjectMapper.m */,
+				994F950083040F5AF3FC16F2FF91A3A0 /* EKManagedObjectMapping.h */,
+				7401A49C60829A47392223317B4287B5 /* EKManagedObjectMapping.m */,
+				3B33AB5FA05269C40E1ECB5A1A7F7378 /* EKManagedObjectModel.h */,
+				C7D9CA45FAFDC577CE69EC7003B21AF8 /* EKManagedObjectModel.m */,
+				7D7F49571FB7B8A09468A345A6A2A69F /* EKMapper.h */,
+				013ADDBC3003F3A3FFF03EA58BC5B343 /* EKMapper.m */,
+				649BD9DF460CAEB391EE586F69D2C9BE /* EKMappingBlocks.h */,
+				3CD775987D61043A16396FDA4DE2A628 /* EKMappingBlocks.m */,
+				C3187E29D5BFF7AF680A895CBE429B25 /* EKMappingProtocol.h */,
+				DC5E63F864A41FD0DB7A50765ABB4891 /* EKObjectMapping.h */,
+				71C667521D9985899B5AD038861EAD39 /* EKObjectMapping.m */,
+				1F3FA36A6EBFB3BE7E86326FAF7803FE /* EKObjectModel.h */,
+				819939128B7C14BA7F06601A1C2B78D6 /* EKObjectModel.m */,
+				FC81D870BF5942193B443A7B5CF606F9 /* EKPropertyHelper.h */,
+				3C21D5F1FE79F571E49D27624D82833E /* EKPropertyHelper.m */,
+				533B2FE0D0E1BB52D224BFD9089F2391 /* EKPropertyMapping.h */,
+				45D1FE50041E2D2A642905632B58920A /* EKPropertyMapping.m */,
+				F31A8D5E65FD6E781424B9B799D566FD /* EKRelationshipMapping.h */,
+				B150929F7C3EA7DA89A390C9310B67AA /* EKRelationshipMapping.m */,
+				4A2F58473EC1B75682F69E126CEEB715 /* EKSerializer.h */,
+				B2A247659DE33D6EE9BF282F36B8640E /* EKSerializer.m */,
+				F9B287AD0FDAC3FF8F4FDD62F70EACF2 /* NSArray+FlattenArray.h */,
+				93508EBC73F76EA5F91EBC5203EA05A3 /* NSArray+FlattenArray.m */,
+				3AE493508B55869AC04BFA72A3B29132 /* NSDateFormatter+EasyMappingAdditions.h */,
+				CFD92C6CEA1EFE3DC5DBB9997ADD5785 /* NSDateFormatter+EasyMappingAdditions.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		F170F60B7CCEC38E5C8C4F4A3314D5A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51A13D633B36E3F160140AF3D01AA906 /* APAddressBook.framework */,
+				34B6521BD9C77CA999CA3294BF9D697C /* EasyMapping.framework */,
+				1C1FA8A0790F227053F5E0F2C4CED13B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5AFEE1B43CB7B708954D0793FD9F337 /* APAddressBook */ = {
+			isa = PBXGroup;
+			children = (
+				8F02FECC6E1B3709E71FDAEFE431C6DD /* Core */,
+				3019E2F174596403F184A7602C7DC0B5 /* Support Files */,
+				140BA3811120F309D313074144BE2BF0 /* Swift */,
+			);
+			path = APAddressBook;
+			sourceTree = "<group>";
+		};
+		FC0BB3842F7FC3F2AD8266F407191798 /* SVWebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6F56D8571D4E40C9F244D2A8573C4C6C /* SVModalWebViewController.h */,
+				450D57CABE9D25BA27B73F197C260C9D /* SVModalWebViewController.m */,
+				7E6D873B1F574370D0B1EC8715835AA5 /* SVWebViewController.h */,
+				E4BBC95DF7C34C751B7E4BF19347E745 /* SVWebViewController.m */,
+				F64A0B36F15D06DD6A20AA6CFFA5F980 /* SVWebViewControllerActivity.h */,
+				A8FC5AADA0A5EA11C52AD66D0EE4C06C /* SVWebViewControllerActivity.m */,
+				2272066520945E6E57D5F3AA5766A2B5 /* SVWebViewControllerActivityChrome.h */,
+				97D2DE77DA5C74FABC8403B38594B5AB /* SVWebViewControllerActivityChrome.m */,
+				64E98B863168C4BA10033605BBA97EA9 /* SVWebViewControllerActivitySafari.h */,
+				91B73384B9830513B25A11C65F1D1975 /* SVWebViewControllerActivitySafari.m */,
+				147AD7AF28AA6983CDB9A6C748CD7B43 /* Resources */,
+				8CAF740CBB25286DB9B3868708EAC88E /* Support Files */,
+			);
+			path = SVWebViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0F19C0BE836E71F4C484C022174C49EB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F888824DB5CB8B87FACC416C017D044 /* Pods-Nexus-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		165D58500B1D2E79B8C7BAC8F0348200 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70DF6556140704F9ADB907C7E4DDFE71 /* APAddress.h in Headers */,
+				C0CAB4710FBAA1C2C0DDD0ED2919F4B2 /* APAddressBook-Bridging.h in Headers */,
+				EA69A1DD56336AEB70D0765622A224A8 /* APAddressBook-umbrella.h in Headers */,
+				C882A77CA91A2913BF17ED4B750A9B5E /* APAddressBook.h in Headers */,
+				7E03A96835C562944B533CF35BE071BE /* APAddressBookAccessRoutine.h in Headers */,
+				6B42ECA2B25756D9D7AAEB8B9605B806 /* APAddressBookBaseRoutine.h in Headers */,
+				9FB79279255BA60D182456813DD9A3FF /* APAddressBookContactsRoutine.h in Headers */,
+				1EB1F1AB11E7A74AB11126EC0747DAAB /* APAddressBookExternalChangeDelegate.h in Headers */,
+				C797EECADAD55A181A8C1361DCB57C51 /* APAddressBookExternalChangeRoutine.h in Headers */,
+				07EA2993A56FB0B4FD7292A599DD779C /* APAddressBookRefWrapper.h in Headers */,
+				C155313B343CCD05796410FD196C215E /* APContact.h in Headers */,
+				E2D506E7E9A7EE0FF900E529FDE2E5DD /* APContactBuilder.h in Headers */,
+				CF4DFB5BABB8632F0B08FE9A36923D68 /* APContactDataExtractor.h in Headers */,
+				F07F838DC2DCE6C626AAB43E11BBF3C0 /* APContactDate.h in Headers */,
+				39B292190BFC8DE9259145F97615AA97 /* APContactListBuilder.h in Headers */,
+				B544FFC12D4025DA8E6ACDC1EA12A322 /* APDeprecated.h in Headers */,
+				15B865C2E8011ADB6BE517139B496D8D /* APEmail.h in Headers */,
+				08DD028B967914941C7848A1DA086CE7 /* APImageExtractor.h in Headers */,
+				03991FCFB90E28F7C470325C1F02FF04 /* APJob.h in Headers */,
+				8FD886448BCEC38D643E29FE3256E4F3 /* APName.h in Headers */,
+				FFCA2A3CD1DC3DF70FA19BC7A4995FA8 /* APPhone.h in Headers */,
+				3BD572558A90C870FD17C5EAEBA934A1 /* APRecordDate.h in Headers */,
+				396F02B1114D26581FB193A7341C4D7A /* APRelatedPerson.h in Headers */,
+				28DADFE15D5C30341E3E1ED43F76B167 /* APSocialProfile.h in Headers */,
+				B23D16C8C18249CB5E2A565C790337F3 /* APSocialServiceHelper.h in Headers */,
+				CE1B3B0BA8F55FCD9998CE00B53C37AC /* APSource.h in Headers */,
+				2AD28D99B90DAF3C7AB5B06AB962B8DD /* APThread.h in Headers */,
+				8DC298462F3FAB1A48672900893A97FC /* APTypes.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47C487C56828A0DD575FA2D223216459 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78076B27EB1496B17C1F7AC7320796C1 /* ReachabilitySwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60346C9F7B64F5C7A5A9D505415136C0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23AE156527CC32482795AE3424471F25 /* EasyMapping-umbrella.h in Headers */,
+				EA920036525C9B5836ED277D86BD817D /* EasyMapping.h in Headers */,
+				F967CFB94BD014FD451E374712C003FF /* EKCoreDataImporter.h in Headers */,
+				237A00A7EA058A99C060ACB8A394775D /* EKManagedObjectMapper.h in Headers */,
+				808D76689694ACD77E12EE23D5EA8445 /* EKManagedObjectMapping.h in Headers */,
+				83F0382A8FB5479F9C9D397CDEBDA76D /* EKManagedObjectModel.h in Headers */,
+				F107E17BF8D5EA4E0537922CBEC25855 /* EKMapper.h in Headers */,
+				D6E0AE8D7805CD9EC3C2D23C13F7C3A0 /* EKMappingBlocks.h in Headers */,
+				49398D3880196D3971BC4B9033B6F4E1 /* EKMappingProtocol.h in Headers */,
+				F7BD08C956E8A3E30BE0FB14E177966C /* EKObjectMapping.h in Headers */,
+				8435459D97506FC96C6A7D17A8D40170 /* EKObjectModel.h in Headers */,
+				03B5D9853EEF182FE0D724A1A9C9D9C2 /* EKPropertyHelper.h in Headers */,
+				3A79EAF91D57F1A96D2F1CCB1D95A8B0 /* EKPropertyMapping.h in Headers */,
+				87A9F3B4304CF2D23BFE32AD30588B96 /* EKRelationshipMapping.h in Headers */,
+				CC27D32E4ECB23AB4F4318932F2B1100 /* EKSerializer.h in Headers */,
+				D7D7C8B2E71652BD9006EA2AAA80EAEE /* NSArray+FlattenArray.h in Headers */,
+				78B5BD7225525A91EDAF2509554118A6 /* NSDateFormatter+EasyMappingAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A66FC3BC3C48153F1AB540B89BF75D49 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3120786124C3998532BCAD15D19BDEC8 /* APContact+EasyMapping.h in Headers */,
+				4642FE4CDF2F7CEA7EA528D30A454964 /* APContactEasyMapping-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8AC37031BB5A79A0CD005952C3D7005 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE3BF77BE039F15E8233058A34F24C8B /* MaterialKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0FCDBA5FD8717E3F6C6637FB182656F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09A46B97F201994796819BE741530467 /* SVModalWebViewController.h in Headers */,
+				6CF8C8BA54CA2C15EBAE23C7186FD296 /* SVWebViewController-umbrella.h in Headers */,
+				2AA2EB4A871AD04333B5459D9089CF0D /* SVWebViewController.h in Headers */,
+				FA11B47BC07CE8C5CEAD71FECA5DEE8E /* SVWebViewControllerActivity.h in Headers */,
+				1B6CDA69975E7A4E378E584EC4AA73F3 /* SVWebViewControllerActivityChrome.h in Headers */,
+				002189060CA05EAF76F321DA0ECA99FC /* SVWebViewControllerActivitySafari.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		087F2A7DD2BCFBCF365C4BB6601E9696 /* Pods-Nexus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BE97242559A04C6ABD1C4248817C205 /* Build configuration list for PBXNativeTarget "Pods-Nexus" */;
+			buildPhases = (
+				D4C7BB8ADF5CD4AC168A90E09AD7FEBB /* Sources */,
+				751399B98A6E08A424E44CBFF17B6CCF /* Frameworks */,
+				0F19C0BE836E71F4C484C022174C49EB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FCEB94D0BE44846B056B68B8FECCC73 /* PBXTargetDependency */,
+				6A3D7D1C8C71295DC04D6D030357DEDC /* PBXTargetDependency */,
+				F79BC6D9B7D9C2EA4C7D4E0CD148B59C /* PBXTargetDependency */,
+				1B75429DC1CFDCB5883E5446A5DF6A8A /* PBXTargetDependency */,
+				9FA2D9FAD7CE6ED0C97A00312D9A2E4D /* PBXTargetDependency */,
+				ED43B582F1BAC83933AD2F9A2F54E54F /* PBXTargetDependency */,
+			);
+			name = "Pods-Nexus";
+			productName = "Pods-Nexus";
+			productReference = 6BC259CC426C99F51D291A482ABD2CE8 /* Pods_Nexus.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		60CC4A740524F4E1B45D68DC4A90DA48 /* APContactEasyMapping */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EBB6ECD597D0D2831AECAF9C58F9309 /* Build configuration list for PBXNativeTarget "APContactEasyMapping" */;
+			buildPhases = (
+				244687A1D0C4F2612521DA837FF488F5 /* Sources */,
+				2FD677B2E93FC35607EE149CD8FAC9A5 /* Frameworks */,
+				A66FC3BC3C48153F1AB540B89BF75D49 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2071C2758717C7B2C7AFF314292454E2 /* PBXTargetDependency */,
+				F6E3F5CA7C3AD1310FCE3793F5E450AC /* PBXTargetDependency */,
+			);
+			name = APContactEasyMapping;
+			productName = APContactEasyMapping;
+			productReference = 2CEC3C443B998F5BAFB454367EFCF5F2 /* APContactEasyMapping.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		73850773DC05DB0F801C716B2A9E95F5 /* MaterialKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D215068F83EBB2EB44EC279D1FD4DE15 /* Build configuration list for PBXNativeTarget "MaterialKit" */;
+			buildPhases = (
+				D95892845DACAEDC9B0038C5B45D9C55 /* Sources */,
+				A62C672275E3A81C24157E9627C6CB59 /* Frameworks */,
+				D8AC37031BB5A79A0CD005952C3D7005 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MaterialKit;
+			productName = MaterialKit;
+			productReference = 7B457C540E405954EBF967F0FE4B64AA /* MaterialKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D8812B4EDEEE5BAD95FE94CC2F9BA5F9 /* ReachabilitySwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E23DE68C0A8CEB06C48BD738D238637 /* Build configuration list for PBXNativeTarget "ReachabilitySwift" */;
+			buildPhases = (
+				D9F81DC2803DE0C4920276C638DCEE5C /* Sources */,
+				BA44E0871CADBCCDF1D03BC91FA70F3D /* Frameworks */,
+				47C487C56828A0DD575FA2D223216459 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReachabilitySwift;
+			productName = ReachabilitySwift;
+			productReference = 8F04CF196E3342251C49D56061A54A14 /* ReachabilitySwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DB971BE7164B7A25C6500CF4672E1298 /* EasyMapping */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8875593196EAB9D03F3C9502032DEEEA /* Build configuration list for PBXNativeTarget "EasyMapping" */;
+			buildPhases = (
+				CB083C97CA1E474F5AAAA53FB6727BD5 /* Sources */,
+				755B193A159BB34D971715F55AE6FBB1 /* Frameworks */,
+				60346C9F7B64F5C7A5A9D505415136C0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyMapping;
+			productName = EasyMapping;
+			productReference = 3465B2B43C2CF3F2570D0B2E682689FA /* EasyMapping.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DD18AB9BECB1119F6A4E69CD3DF1764F /* SVWebViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53178E7FC771D1764F10F039390D3745 /* Build configuration list for PBXNativeTarget "SVWebViewController" */;
+			buildPhases = (
+				B7FAE516C7CFEB0C88DD60ED430F49F6 /* Sources */,
+				211EEA196CFBD9BDABE66FB27BF1812C /* Frameworks */,
+				F0FCDBA5FD8717E3F6C6637FB182656F /* Headers */,
+				F6D6941775935EDA7A66E28DFB325E6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SVWebViewController;
+			productName = SVWebViewController;
+			productReference = EC02FECF79F61A58A73B28837A0BB715 /* SVWebViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E96DB4BFAAD4957B80AC7CA641D754B5 /* APAddressBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC18DED2F18D3F18A05DAF5E8F4F5631 /* Build configuration list for PBXNativeTarget "APAddressBook" */;
+			buildPhases = (
+				A73349CAE6CB5D3F7A2C4DB69C4AF260 /* Sources */,
+				F313C8EB6D974B98B705B5A7E43BB1EF /* Frameworks */,
+				165D58500B1D2E79B8C7BAC8F0348200 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = APAddressBook;
+			productName = APAddressBook;
+			productReference = 0C4459F2A274BCB75EC8A5522B28BC9C /* APAddressBook.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B51DFA366823042D37E5E7F9481A01BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E96DB4BFAAD4957B80AC7CA641D754B5 /* APAddressBook */,
+				60CC4A740524F4E1B45D68DC4A90DA48 /* APContactEasyMapping */,
+				DB971BE7164B7A25C6500CF4672E1298 /* EasyMapping */,
+				73850773DC05DB0F801C716B2A9E95F5 /* MaterialKit */,
+				087F2A7DD2BCFBCF365C4BB6601E9696 /* Pods-Nexus */,
+				D8812B4EDEEE5BAD95FE94CC2F9BA5F9 /* ReachabilitySwift */,
+				DD18AB9BECB1119F6A4E69CD3DF1764F /* SVWebViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6D6941775935EDA7A66E28DFB325E6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CACD83476BF2C9D79CE925F9CDD61D82 /* da.lproj in Resources */,
+				672A39BEB4B5105839BC3A1167713939 /* de.lproj in Resources */,
+				09C7B0CFC61976ECC946545877AEB8D5 /* en.lproj in Resources */,
+				C1B4C2596338287E5F73D6E1B7D35E63 /* es-ES.lproj in Resources */,
+				688C6A054128270D5B5EDCBEC047DBDB /* es.lproj in Resources */,
+				8EA0E4DC2E1646D3835F5B3F377630E3 /* fr.lproj in Resources */,
+				2D34EF1405303BD5F2A1EC453969FEBE /* ja.lproj in Resources */,
+				22B8360042177EFD239901509A338683 /* pt.lproj in Resources */,
+				50AED70781AC00F55660AFB3B9992696 /* SVWebViewController.bundle in Resources */,
+				95832479B73A8D57140BF2A0BD854641 /* SVWebViewControllerActivityChrome-iPad.png in Resources */,
+				D1E1E1006A8F9F253474EF11CB2E8C3C /* SVWebViewControllerActivityChrome-iPad@2x.png in Resources */,
+				9D2AEA25FC8BBCB50D170BE69986B923 /* SVWebViewControllerActivityChrome@2x.png in Resources */,
+				ADAC7E2113A041B21CC505830EA4A747 /* SVWebViewControllerActivitySafari-iPad.png in Resources */,
+				E82608F8BBFEC2185ADCF5317C80AA43 /* SVWebViewControllerActivitySafari-iPad@2x.png in Resources */,
+				20213018F5CE8C3AC1C7C140DE771250 /* SVWebViewControllerActivitySafari@2x.png in Resources */,
+				FDBD024616BFFCF309511DB7F2286DDD /* SVWebViewControllerBack.png in Resources */,
+				D5BC0F5B6576E8FDD2DBF213834EAC44 /* SVWebViewControllerBack@2x.png in Resources */,
+				A72A54DE18A6A77DA3C6BE06285180C3 /* SVWebViewControllerNext.png in Resources */,
+				751F7072B5557CDC1B28C472488823FB /* SVWebViewControllerNext@2x.png in Resources */,
+				EF4321F439B0E810CB5577BA4F034E0C /* zh-Hans.lproj in Resources */,
+				88D7847E493B08AAD89F95E04F14DA7D /* zh-Hant.lproj in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		244687A1D0C4F2612521DA837FF488F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5E2A260A98C38CA7C10B9750A8E2F67 /* APContact+EasyMapping.m in Sources */,
+				F1F512B1FCD8653069C010A795826475 /* APContactEasyMapping-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A73349CAE6CB5D3F7A2C4DB69C4AF260 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81DD0ED9757840AA5BF86762C2D130EC /* APAddress.m in Sources */,
+				64FB2139447B2122C088CA6A380FA025 /* APAddressBook-dummy.m in Sources */,
+				096B6D6FC9407AB570AE961668BC89D7 /* APAddressBook.m in Sources */,
+				3915C159E25DD239A988484F52E4C1C4 /* APAddressBookAccessRoutine.m in Sources */,
+				7400D3BD2CC35610CC2234BF28EDDC15 /* APAddressBookBaseRoutine.m in Sources */,
+				393AB0525E079B196EF8C5C3C2B18FAE /* APAddressBookContactsRoutine.m in Sources */,
+				D88CD79AB0512FDFF1F58D1917ED7B40 /* APAddressBookExternalChangeRoutine.m in Sources */,
+				3CD261C148462E67B2E2B494911C75E0 /* APAddressBookRefWrapper.m in Sources */,
+				D010D7B6179401F0A14661E3FB2292AB /* APContact.m in Sources */,
+				3D9293E9A112CD62CD00E95BD02BDF5B /* APContactBuilder.m in Sources */,
+				F157024675C82C278B5E8D7377A1317A /* APContactDataExtractor.m in Sources */,
+				392272AB3A68B7073B56F29AE45D0374 /* APContactDate.m in Sources */,
+				F1FE20CC810029C9269AD7C98CF955EF /* APContactListBuilder.m in Sources */,
+				1ADCA69F072574677AE631A13CDC9880 /* APEmail.m in Sources */,
+				4228B10B4F32733E8E0F1DD66B7502AD /* APImageExtractor.m in Sources */,
+				465F2951C21EAF3B3227661A11F11310 /* APJob.m in Sources */,
+				2E21B296D139D94BFE742536D74C52F6 /* APName.m in Sources */,
+				313099B6B5EE359B40AC5219A15C1CCE /* APPhone.m in Sources */,
+				37E28D38C0C98FDD5EE94EC2674205DF /* APRecordDate.m in Sources */,
+				A1F1F6895638F232ABA33A4EDCEB31AD /* APRelatedPerson.m in Sources */,
+				A76DB73EBF5B1744A80BE71EC0855847 /* APSocialProfile.m in Sources */,
+				2D9FC072BBB95F157EE7C1337BC6CC8A /* APSocialServiceHelper.m in Sources */,
+				760A165B3A5ADD00D4E0185B73D61F13 /* APSource.m in Sources */,
+				E797F73AF0A3AA46AA0864600D13110C /* APThread.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7FAE516C7CFEB0C88DD60ED430F49F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0920C6F61E68F3B5A27F8359F9CB45F7 /* SVModalWebViewController.m in Sources */,
+				A35C08C3351925A29E1CFA0CF7868E92 /* SVWebViewController-dummy.m in Sources */,
+				D3633CF7AA220061ACC7E01752AB3078 /* SVWebViewController.m in Sources */,
+				CACDA47832F02E52D5E0EA0D10DE79B8 /* SVWebViewControllerActivity.m in Sources */,
+				AD26BB41EB0D8D0A88557D0B0460C8B0 /* SVWebViewControllerActivityChrome.m in Sources */,
+				B1D3F85B4B46622093B59D38EA51A083 /* SVWebViewControllerActivitySafari.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB083C97CA1E474F5AAAA53FB6727BD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8709E918DE3255DB1665855994223F5B /* EasyMapping-dummy.m in Sources */,
+				2B5E7C3A515373C859B7E9432C189AF6 /* EKCoreDataImporter.m in Sources */,
+				861DD4B3D3DC24B36C9798944B83E22E /* EKManagedObjectMapper.m in Sources */,
+				638D79053A67BD85A55F23199B53F7FF /* EKManagedObjectMapping.m in Sources */,
+				C98F54B6B06DE5E7BDE52D90D34AABE8 /* EKManagedObjectModel.m in Sources */,
+				D296854119AB4CC1D538B9EBF542FE02 /* EKMapper.m in Sources */,
+				D8FF81EAD94AB3A9695B84FD269DF2FD /* EKMappingBlocks.m in Sources */,
+				0245EFEF5F59047C56E7A9C1904CE4BB /* EKObjectMapping.m in Sources */,
+				6D7D79CE80101C94B120F5C923358A35 /* EKObjectModel.m in Sources */,
+				AE240FA0E7B880E98A5B0650503714DC /* EKPropertyHelper.m in Sources */,
+				BF33094365AF891F34D6376F1E51590A /* EKPropertyMapping.m in Sources */,
+				4E9240C916C4C37BDA809AF789696262 /* EKRelationshipMapping.m in Sources */,
+				C7D619AD366830522DEDBB2C6DF89DD1 /* EKSerializer.m in Sources */,
+				2C0F35161B41DAF22B8972528A06CAD0 /* NSArray+FlattenArray.m in Sources */,
+				4858E54CF65269C087258F13094ECEB0 /* NSDateFormatter+EasyMappingAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4C7BB8ADF5CD4AC168A90E09AD7FEBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C18B52B33B95941178B859B1DAE0B4D /* Pods-Nexus-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D95892845DACAEDC9B0038C5B45D9C55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A870347E771B20EFEF0F75CAFE06383 /* MaterialKit-dummy.m in Sources */,
+				911A81DD8925D69CC89728890007D6C4 /* MKActivityIndicator.swift in Sources */,
+				9796AE0844C7548884DCF218E91D9A7E /* MKButton.swift in Sources */,
+				02A83B2F19D954DC7EE0475E2B3FA31A /* MKCardView.swift in Sources */,
+				5CE7100E99FB1255905051162EE1EBF4 /* MKCollectionViewCell.swift in Sources */,
+				D9D46AB254E4E9B5F340DD3DCB78A1F0 /* MKColor.swift in Sources */,
+				8A3E3C220E42806A661AD7D6D8858FEF /* MKEmbedDrawerControllerSegue.swift in Sources */,
+				3929AC913D376C01B40FB69EA8B3F248 /* MKEmbedMainControllerSegue.swift in Sources */,
+				7D7FB1098C675CADDF59A5732DD0C34D /* MKImageView.swift in Sources */,
+				01B12D71C179CC6A565704116E858C1B /* MKLabel.swift in Sources */,
+				4D47B36679220E649AACBC7E5EEEAD1F /* MKLayer.swift in Sources */,
+				7EC4E0B104A3717E0F5C3395776B0847 /* MKNavigationBar.swift in Sources */,
+				D3BF782C490DC3581DD2E636F125EC97 /* MKRefreshControl.swift in Sources */,
+				E3B755F999AE0897F1EBEADA06DA637C /* MKSideDrawerViewController.swift in Sources */,
+				9D695DF0DC77CFAF26BEF5D2ADB46593 /* MKSnackbar.swift in Sources */,
+				981BE6D0CA46A95C2B137B60240EED22 /* MKSwitch.swift in Sources */,
+				54F60E414FE3324EEC543A544F27396D /* MKTableViewCell.swift in Sources */,
+				030AAB1BDF10037089A21E9111149C35 /* MKTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9F81DC2803DE0C4920276C638DCEE5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4D2D9575BBF711E12F15D0FA608AB9C /* Reachability.swift in Sources */,
+				F6521E106C15879019D1C9B5C852DF54 /* ReachabilitySwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B75429DC1CFDCB5883E5446A5DF6A8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MaterialKit;
+			target = 73850773DC05DB0F801C716B2A9E95F5 /* MaterialKit */;
+			targetProxy = 886C00C3788E46731A16F0F5C459659C /* PBXContainerItemProxy */;
+		};
+		2071C2758717C7B2C7AFF314292454E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = APAddressBook;
+			target = E96DB4BFAAD4957B80AC7CA641D754B5 /* APAddressBook */;
+			targetProxy = 75FAAC82885BDB0A7BFF22C9DA9F4D3F /* PBXContainerItemProxy */;
+		};
+		3FCEB94D0BE44846B056B68B8FECCC73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = APAddressBook;
+			target = E96DB4BFAAD4957B80AC7CA641D754B5 /* APAddressBook */;
+			targetProxy = 7281911B1A9DEFBC8FD0BA0A9541A816 /* PBXContainerItemProxy */;
+		};
+		6A3D7D1C8C71295DC04D6D030357DEDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = APContactEasyMapping;
+			target = 60CC4A740524F4E1B45D68DC4A90DA48 /* APContactEasyMapping */;
+			targetProxy = F68E442BBC92FAB5815E88FF7F0CCEC3 /* PBXContainerItemProxy */;
+		};
+		9FA2D9FAD7CE6ED0C97A00312D9A2E4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ReachabilitySwift;
+			target = D8812B4EDEEE5BAD95FE94CC2F9BA5F9 /* ReachabilitySwift */;
+			targetProxy = F488EBC591A24276D54DAB6966CC297A /* PBXContainerItemProxy */;
+		};
+		ED43B582F1BAC83933AD2F9A2F54E54F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVWebViewController;
+			target = DD18AB9BECB1119F6A4E69CD3DF1764F /* SVWebViewController */;
+			targetProxy = 5249F7A5A1E588D9A34FB4139A248B81 /* PBXContainerItemProxy */;
+		};
+		F6E3F5CA7C3AD1310FCE3793F5E450AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EasyMapping;
+			target = DB971BE7164B7A25C6500CF4672E1298 /* EasyMapping */;
+			targetProxy = 147D7A023F2DB08DEDAB6069C3F32A81 /* PBXContainerItemProxy */;
+		};
+		F79BC6D9B7D9C2EA4C7D4E0CD148B59C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EasyMapping;
+			target = DB971BE7164B7A25C6500CF4672E1298 /* EasyMapping */;
+			targetProxy = AE05B46753FFA1AE9EF434563F9862E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03D6F2D0960B6E0DD8B12E03F6D6790C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92F1999C336B24F326F49892F084F185 /* APContactEasyMapping.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/APContactEasyMapping/APContactEasyMapping-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/APContactEasyMapping/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/APContactEasyMapping/APContactEasyMapping.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = APContactEasyMapping;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		042867D3EB0B292B9DF3A8D5E6DBA3B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07E9B86285C023101EDC55A470BF20F3 /* Pods-Nexus.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Nexus/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Nexus/Pods-Nexus.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Nexus;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		094901E328A57B108469C3C448A454BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F87CCAFC6371373409B840BFF12FC82C /* APAddressBook.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/APAddressBook/APAddressBook-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/APAddressBook/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/APAddressBook/APAddressBook.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = APAddressBook;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		159374A9635AD7BF681175C693773122 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0040FC2912D555BDEC92B2F5CDBBB6EA /* EasyMapping.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EasyMapping/EasyMapping-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EasyMapping/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EasyMapping/EasyMapping.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = EasyMapping;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2BC926BE9F3DA134CF818AF9E20688B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47E58228A542A4B25C44958C8A26DFDE /* ReachabilitySwift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ReachabilitySwift/ReachabilitySwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReachabilitySwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ReachabilitySwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		51B78F649F0C200296E6C1BCC5915513 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47E58228A542A4B25C44958C8A26DFDE /* ReachabilitySwift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ReachabilitySwift/ReachabilitySwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReachabilitySwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ReachabilitySwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5B5CBAAFA75E2D8458AE4BC9B54E1D33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE7F2BF331132B006C1B7D1DFDB82E91 /* SVWebViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SVWebViewController/SVWebViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVWebViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SVWebViewController/SVWebViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SVWebViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5CE5176205D06FF3FFE3DDDA9291E44B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		611583AAA2A593EF53B3F47912E4DB2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0040FC2912D555BDEC92B2F5CDBBB6EA /* EasyMapping.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EasyMapping/EasyMapping-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EasyMapping/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EasyMapping/EasyMapping.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = EasyMapping;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		74857149DC1E0D599B8A01A78349A926 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0CA6D555350FC935DD1E93320057A05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FDAD093957E9D3BFCCFEC79F3C73C81 /* MaterialKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MaterialKit/MaterialKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MaterialKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MaterialKit/MaterialKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MaterialKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B9E11AAA348D751A2EDEF7F53081CE95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE7F2BF331132B006C1B7D1DFDB82E91 /* SVWebViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SVWebViewController/SVWebViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVWebViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SVWebViewController/SVWebViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SVWebViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C542603A446D02014AE083C01EFA226A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DF38B78F7679DB3FAACFA31391280D1 /* Pods-Nexus.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Nexus/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Nexus/Pods-Nexus.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Nexus;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CB42577519F186B03ED0CFC8492861F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FDAD093957E9D3BFCCFEC79F3C73C81 /* MaterialKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MaterialKit/MaterialKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MaterialKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MaterialKit/MaterialKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MaterialKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E9061936998B5CF123AEEAB2E2BB4C4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F87CCAFC6371373409B840BFF12FC82C /* APAddressBook.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/APAddressBook/APAddressBook-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/APAddressBook/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/APAddressBook/APAddressBook.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = APAddressBook;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FAE7D9653B6A942434CAC698944981C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92F1999C336B24F326F49892F084F185 /* APContactEasyMapping.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/APContactEasyMapping/APContactEasyMapping-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/APContactEasyMapping/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/APContactEasyMapping/APContactEasyMapping.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = APContactEasyMapping;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E23DE68C0A8CEB06C48BD738D238637 /* Build configuration list for PBXNativeTarget "ReachabilitySwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51B78F649F0C200296E6C1BCC5915513 /* Debug */,
+				2BC926BE9F3DA134CF818AF9E20688B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CE5176205D06FF3FFE3DDDA9291E44B /* Debug */,
+				74857149DC1E0D599B8A01A78349A926 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EBB6ECD597D0D2831AECAF9C58F9309 /* Build configuration list for PBXNativeTarget "APContactEasyMapping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03D6F2D0960B6E0DD8B12E03F6D6790C /* Debug */,
+				FAE7D9653B6A942434CAC698944981C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53178E7FC771D1764F10F039390D3745 /* Build configuration list for PBXNativeTarget "SVWebViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9E11AAA348D751A2EDEF7F53081CE95 /* Debug */,
+				5B5CBAAFA75E2D8458AE4BC9B54E1D33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BE97242559A04C6ABD1C4248817C205 /* Build configuration list for PBXNativeTarget "Pods-Nexus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C542603A446D02014AE083C01EFA226A /* Debug */,
+				042867D3EB0B292B9DF3A8D5E6DBA3B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8875593196EAB9D03F3C9502032DEEEA /* Build configuration list for PBXNativeTarget "EasyMapping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				611583AAA2A593EF53B3F47912E4DB2D /* Debug */,
+				159374A9635AD7BF681175C693773122 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC18DED2F18D3F18A05DAF5E8F4F5631 /* Build configuration list for PBXNativeTarget "APAddressBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				094901E328A57B108469C3C448A454BE /* Debug */,
+				E9061936998B5CF123AEEAB2E2BB4C4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D215068F83EBB2EB44EC279D1FD4DE15 /* Build configuration list for PBXNativeTarget "MaterialKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB42577519F186B03ED0CFC8492861F4 /* Debug */,
+				B0CA6D555350FC935DD1E93320057A05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

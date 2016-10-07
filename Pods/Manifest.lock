@@ -1,0 +1,50 @@
+PODS:
+  - APAddressBook (0.2.3):
+    - APAddressBook/Core (= 0.2.3)
+  - APAddressBook/Core (0.2.3)
+  - APAddressBook/Swift (0.2.3):
+    - APAddressBook/Core
+  - APContactEasyMapping (0.0.3):
+    - APAddressBook
+    - EasyMapping
+  - EasyMapping (0.18.1):
+    - EasyMapping/Core (= 0.18.1)
+  - EasyMapping/Core (0.18.1)
+  - MaterialKit (0.4)
+  - ReachabilitySwift (3)
+  - SVWebViewController (1.0)
+
+DEPENDENCIES:
+  - APAddressBook/Swift
+  - APContactEasyMapping
+  - EasyMapping
+  - MaterialKit (from `https://github.com/pontago/MaterialKit.git`, branch `swift3`)
+  - ReachabilitySwift (~> 3)
+  - SVWebViewController (from `https://github.com/TransitApp/SVWebViewController`,
+    branch `master`)
+
+EXTERNAL SOURCES:
+  MaterialKit:
+    :branch: swift3
+    :git: https://github.com/pontago/MaterialKit.git
+  SVWebViewController:
+    :branch: master
+    :git: https://github.com/TransitApp/SVWebViewController
+
+CHECKOUT OPTIONS:
+  MaterialKit:
+    :commit: 71cee6a7ccf337d67eeed08fad1b99a36070790f
+    :git: https://github.com/pontago/MaterialKit.git
+  SVWebViewController:
+    :commit: 9abad6b852b6c2ad19bb3c28532cce53719e2a7f
+    :git: https://github.com/TransitApp/SVWebViewController
+
+SPEC CHECKSUMS:
+  APAddressBook: 2a91bf05999548bea210ec9d1a68073f4dc8bfce
+  APContactEasyMapping: 6c3ec3c6b48a0da5a858e19205bf4cd987f00e08
+  EasyMapping: 2637b5bac13b6450bc799c28791a419e58c946b0
+  MaterialKit: 2e5267bcf410b82793f2b92d2111f8ae4ed2c3f2
+  ReachabilitySwift: f5b9bb30a0777fac8f09ce8b067e32faeb29bb64
+  SVWebViewController: aa2e18a41ff5f45be7aeec8e92ca5bcc50b5ebb1
+
+COCOAPODS: 0.39.0

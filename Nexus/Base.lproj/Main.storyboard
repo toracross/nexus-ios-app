@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Nexus" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mobile-menu-bg" translatesAutoresizingMaskIntoConstraints="NO" id="7M0-Jh-Au0"/>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No internet connection found. Please make sure you have an active internet connection to use Nexus." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="654-gM-0J3">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="107" id="E0i-x9-7om"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="An error occured while trying to load Nexus. Please try again, or if the problem persists, try again later." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oa6-Gw-QRf">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="107" id="iut-Pr-zZh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PAt-ib-jOf" customClass="MKButton" customModule="Nexus" customModuleProvider="target">
+                                <color key="backgroundColor" red="0.0" green="0.63529411764705879" blue="0.89803921568627454" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="Jxp-jX-2sJ"/>
+                                    <constraint firstAttribute="width" constant="180" id="so5-jn-DhO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="13"/>
+                                <state key="normal" title="TRY AGAIN">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="reloadAgainPressWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oPx-p8-VxN"/>
+                                </connections>
+                            </button>
+                            <progressView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="5P1-7d-IjZ">
+                                <color key="tintColor" red="0.0" green="0.63529411759999999" blue="0.8980392157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <rect key="contentStretch" x="0.0" y="1" width="1" height="1"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="sxj-TX-t1D"/>
+                                </constraints>
+                            </progressView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" image="nexus-icon-512" translatesAutoresizingMaskIntoConstraints="NO" id="xLa-xe-Oc9">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="281" id="73a-33-Sdn"/>
+                                    <constraint firstAttribute="height" constant="90" id="bUy-3R-QTH"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="5P1-7d-IjZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5Kx-l9-4pk"/>
+                            <constraint firstItem="oa6-Gw-QRf" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="7r1-Ts-M6b"/>
+                            <constraint firstItem="oa6-Gw-QRf" firstAttribute="top" secondItem="xLa-xe-Oc9" secondAttribute="bottom" constant="76" id="9Jo-m6-CF0"/>
+                            <constraint firstItem="5P1-7d-IjZ" firstAttribute="top" secondItem="oa6-Gw-QRf" secondAttribute="bottom" id="Awf-1a-Xsi"/>
+                            <constraint firstItem="7M0-Jh-Au0" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="Bp1-iK-1pu"/>
+                            <constraint firstItem="654-gM-0J3" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Fes-fn-Oke"/>
+                            <constraint firstAttribute="trailing" secondItem="654-gM-0J3" secondAttribute="trailing" constant="27" id="Lgg-OB-A2Q"/>
+                            <constraint firstItem="PAt-ib-jOf" firstAttribute="top" secondItem="5P1-7d-IjZ" secondAttribute="bottom" constant="56" id="M1a-mc-kY8"/>
+                            <constraint firstItem="xLa-xe-Oc9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="OW4-wo-ItA"/>
+                            <constraint firstItem="7M0-Jh-Au0" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="Sgr-7u-F9E"/>
+                            <constraint firstItem="PAt-ib-jOf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Tlu-aF-wyA"/>
+                            <constraint firstItem="oa6-Gw-QRf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="27" id="UN0-d6-WYD"/>
+                            <constraint firstItem="7M0-Jh-Au0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Xtp-Zz-Rzd"/>
+                            <constraint firstAttribute="trailing" secondItem="oa6-Gw-QRf" secondAttribute="trailing" constant="27" id="ijB-4j-rKm"/>
+                            <constraint firstItem="7M0-Jh-Au0" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="rcg-Ss-iFZ"/>
+                            <constraint firstItem="654-gM-0J3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="27" id="tec-7T-hFI"/>
+                        </constraints>
+                    </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="InternetError" destination="654-gM-0J3" id="WVn-3X-u2a"/>
+                        <outlet property="LoadError" destination="oa6-Gw-QRf" id="Yvq-zx-c1z"/>
+                        <outlet property="NexusLogo" destination="xLa-xe-Oc9" id="pFr-5j-Dxh"/>
+                        <outlet property="OverlayImage" destination="7M0-Jh-Au0" id="B3c-g4-mTj"/>
+                        <outlet property="progressLoading" destination="5P1-7d-IjZ" id="w1C-Ux-sJU"/>
+                        <outlet property="reloadButton" destination="PAt-ib-jOf" id="3hL-5Y-Jdk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="244.5" y="336.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="mobile-menu-bg" width="1080" height="1920"/>
+        <image name="nexus-icon-512" width="512" height="512"/>
+    </resources>
+</document>
